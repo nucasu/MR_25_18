@@ -5,6 +5,6 @@ docker run -it --rm --net host --ipc host --privileged \
     -e DISPLAY=$DISPLAY \
     -e XAUTHORITY=$XAUTHORITY \
     -v ./ros_ws/:/root/ros_workspace \
-    --name lab7 \
+    --name MR_25_18 \
     ros:MR_25_18 bash
     
