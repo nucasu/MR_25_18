@@ -1,0 +1,1 @@
+docker exec -it MR_25_18 bash
