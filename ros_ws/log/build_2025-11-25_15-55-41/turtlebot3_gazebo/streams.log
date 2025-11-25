@@ -1,0 +1,5 @@
+[0.274s] Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j12 -l12
+[1.173s] [ 25%] Built target turtlebot3_drive
+[1.437s] [ 50%] Built target obstacle2
+[1.519s] [ 75%] Built target obstacle1
+[1.684s] [100%] Built target obstacles

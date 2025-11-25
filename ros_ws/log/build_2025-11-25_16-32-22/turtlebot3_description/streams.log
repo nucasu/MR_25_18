@@ -1,0 +1,45 @@
+[0.190s] Invoking command in '/root/ros_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_description
+[0.276s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.566s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[1.640s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.077s] -- Configuring done (1.8s)
+[2.142s] -- Generating done (0.1s)
+[2.146s] -- Build files have been written to: /root/ros_workspace/build/turtlebot3_description
+[2.183s] Invoked command in '/root/ros_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_description
+[2.185s] Invoking command in '/root/ros_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_description -- -j12 -l12
+[2.481s] Invoked command in '/root/ros_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_description -- -j12 -l12
+[2.496s] Invoking command in '/root/ros_workspace/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_description
+[2.602s] -- Install configuration: ""
+[2.602s] -- Execute custom install script
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[2.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[2.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[2.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[2.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[2.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[2.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[2.623s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[2.624s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[2.624s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[2.625s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[2.625s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[2.626s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[2.626s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[2.627s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[2.627s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[2.627s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[2.627s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[2.628s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[2.628s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[2.628s] -- Symlinking: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[2.660s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[2.669s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[2.670s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[2.686s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[2.860s] Invoked command in '/root/ros_workspace/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_description

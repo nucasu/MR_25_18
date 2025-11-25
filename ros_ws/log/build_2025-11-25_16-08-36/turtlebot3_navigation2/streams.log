@@ -1,0 +1,19 @@
+[0.142s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_navigation2
+[0.952s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.952s] Traceback (most recent call last):
+[0.953s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.953s]     from ament_package.templates import get_environment_hook_template_path
+[0.955s] ModuleNotFoundError: No module named 'ament_package'
+[0.965s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.965s]   execute_process(/usr/bin/python3
+[0.965s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.966s]   /root/ros_workspace/build/turtlebot3_navigation2/ament_cmake_package_templates/templates.cmake)
+[0.966s]   returned error code 1
+[0.981s] Call Stack (most recent call first):
+[0.983s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.985s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.986s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.986s]   CMakeLists.txt:14 (find_package)
+[0.987s] 
+[0.987s] [0m
+[0.987s] -- Configuring incomplete, errors occurred!

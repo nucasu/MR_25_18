@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.002597] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.002760] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.002857] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.002943] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.003007] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.003032] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.003081] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.003102] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.003150] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict({'dynamixel_sdk': '/root/ros_workspace/install/dynamixel_sdk', 'dynamixel_sdk_custom_interfaces': '/root/ros_workspace/install/dynamixel_sdk_custom_interfaces'})}
+[0.003226] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict({'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs'})}
+[0.003252] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict({'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs'})}
+[0.003272] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict({'dynamixel_sdk': '/root/ros_workspace/install/dynamixel_sdk', 'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs'})}
+[0.003295] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict({'dynamixel_sdk': '/root/ros_workspace/install/dynamixel_sdk', 'turtlebot3_description': '/root/ros_workspace/install/turtlebot3_description', 'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs', 'turtlebot3_node': '/root/ros_workspace/install/turtlebot3_node'})}
+[0.003350] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict({'turtlebot3_gazebo': '/root/ros_workspace/install/turtlebot3_gazebo', 'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs', 'turtlebot3_fake_node': '/root/ros_workspace/install/turtlebot3_fake_node'})}
+[0.004434] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict({'dynamixel_sdk': '/root/ros_workspace/install/dynamixel_sdk', 'turtlebot3_cartographer': '/root/ros_workspace/install/turtlebot3_cartographer', 'turtlebot3_description': '/root/ros_workspace/install/turtlebot3_description', 'turtlebot3_msgs': '/root/ros_workspace/install/turtlebot3_msgs', 'turtlebot3_navigation2': '/root/ros_workspace/install/turtlebot3_navigation2', 'turtlebot3_teleop': '/root/ros_workspace/install/turtlebot3_teleop', 'turtlebot3_example': '/root/ros_workspace/install/turtlebot3_example', 'turtlebot3_node': '/root/ros_workspace/install/turtlebot3_node', 'turtlebot3_bringup': '/root/ros_workspace/install/turtlebot3_bringup'})}
+[0.004626] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.016147] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.020933] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.025806] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.031053] (turtlebot3_cartographer) JobStarted: {'identifier': 'turtlebot3_cartographer'}
+[0.043694] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.059826] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.065684] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.096351] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.100296] (-) TimerEvent: {}
+[0.102624] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/turtlebot3_msgs', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_msgs'], 'cwd': '/root/ros_workspace/build/turtlebot3_msgs', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/turtlebot3_msgs', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.119225] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.122168] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk'], 'cwd': '/root/ros_workspace/build/dynamixel_sdk', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/dynamixel_sdk', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.142082] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.156057] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/turtlebot3/turtlebot3_description', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_description'], 'cwd': '/root/ros_workspace/build/turtlebot3_description', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/turtlebot3_description', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.180680] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[0.180901] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk_custom_interfaces'], 'cwd': '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.187036] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'cmake'}
+[0.199057] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/turtlebot3/turtlebot3_cartographer', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_cartographer'], 'cwd': '/root/ros_workspace/build/turtlebot3_cartographer', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/turtlebot3_cartographer', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.207169] (-) TimerEvent: {}
+[0.208001] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.215616] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_gazebo'], 'cwd': '/root/ros_workspace/build/turtlebot3_gazebo', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/turtlebot3_gazebo', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.227328] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.228142] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_workspace/src/turtlebot3/turtlebot3_navigation2', '-DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_navigation2'], 'cwd': '/root/ros_workspace/build/turtlebot3_navigation2', 'env': OrderedDict({'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'HOME': '/root', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'PWD': '/root/ros_workspace/build/turtlebot3_navigation2', 'LC_ALL': 'C.UTF-8', 'COLCON': '1'}), 'shell': False}
+[0.307395] (-) TimerEvent: {}
+[0.408276] (-) TimerEvent: {}
+[0.512629] (-) TimerEvent: {}
+[0.613874] (-) TimerEvent: {}
+[0.714902] (-) TimerEvent: {}
+[0.817355] (-) TimerEvent: {}
+[0.917924] (-) TimerEvent: {}
+[0.989036] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[0.994388] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.995265] (turtlebot3_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.004519] (turtlebot3_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.005610] (turtlebot3_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.009321] (turtlebot3_msgs) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.009606] (turtlebot3_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.009891] (turtlebot3_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.010245] (turtlebot3_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.010575] (turtlebot3_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.022123] (-) TimerEvent: {}
+[1.023495] (turtlebot3_msgs) StderrLine: {'line': b'  /root/ros_workspace/build/turtlebot3_msgs/ament_cmake_package_templates/templates.cmake)\n'}
+[1.028473] (turtlebot3_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[1.029254] (turtlebot3_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.031145] (turtlebot3_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.031567] (turtlebot3_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.032805] (turtlebot3_msgs) StderrLine: {'line': b'  /opt/ros/jazzy/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)\n'}
+[1.033170] (turtlebot3_msgs) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.033601] (turtlebot3_msgs) StderrLine: {'line': b'\n'}
+[1.037168] (turtlebot3_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.038051] (dynamixel_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.039531] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.040777] (dynamixel_sdk) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.044137] (dynamixel_sdk) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.045306] (dynamixel_sdk) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.046065] (dynamixel_sdk) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.047088] (dynamixel_sdk) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.047585] (dynamixel_sdk) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.047881] (dynamixel_sdk) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.049155] (dynamixel_sdk) StderrLine: {'line': b'  /root/ros_workspace/build/dynamixel_sdk/ament_cmake_package_templates/templates.cmake)\n'}
+[1.050555] (dynamixel_sdk) StderrLine: {'line': b'  returned error code 1\n'}
+[1.050779] (dynamixel_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.050970] (dynamixel_sdk) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.051317] (dynamixel_sdk) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.052230] (dynamixel_sdk) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.054863] (dynamixel_sdk) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.057710] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.058371] (dynamixel_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.058860] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.059389] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.059742] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.060253] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.060664] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.061462] (turtlebot3_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.062081] (turtlebot3_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.062678] (turtlebot3_description) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.062862] (turtlebot3_description) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.063080] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.063269] (turtlebot3_description) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.063474] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.063641] (turtlebot3_description) StderrLine: {'line': b'  /root/ros_workspace/build/turtlebot3_description/ament_cmake_package_templates/templates.cmake)\n'}
+[1.063825] (turtlebot3_description) StderrLine: {'line': b'  returned error code 1\n'}
+[1.064000] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.064170] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.065131] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.065313] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.065464] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[1.065631] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[1.065831] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.066056] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.067900] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.068555] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.068754] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.069366] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.070214] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.070868] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.071197] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  /root/ros_workspace/build/dynamixel_sdk_custom_interfaces/ament_cmake_package_templates/templates.cmake)\n'}
+[1.071345] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[1.071634] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.071810] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.072030] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.072247] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.072929] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[1.085443] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\n'}
+[1.085853] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.086429] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.087309] (turtlebot3_cartographer) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.087613] (turtlebot3_cartographer) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.088722] (turtlebot3_cartographer) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.089232] (turtlebot3_cartographer) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.089841] (turtlebot3_cartographer) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.090721] (turtlebot3_cartographer) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.091302] (turtlebot3_cartographer) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.091973] (turtlebot3_cartographer) StderrLine: {'line': b'  /root/ros_workspace/build/turtlebot3_cartographer/ament_cmake_package_templates/templates.cmake)\n'}
+[1.092832] (turtlebot3_cartographer) StderrLine: {'line': b'  returned error code 1\n'}
+[1.093405] (turtlebot3_cartographer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.094901] (turtlebot3_cartographer) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.095660] (turtlebot3_cartographer) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.096383] (turtlebot3_cartographer) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.097209] (turtlebot3_cartographer) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[1.097501] (turtlebot3_cartographer) StderrLine: {'line': b'\n'}
+[1.098118] (turtlebot3_cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[1.098496] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.099053] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.099529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.099961] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.100881] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.102942] (turtlebot3_gazebo) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.117959] (turtlebot3_gazebo) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.118866] (turtlebot3_gazebo) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.121460] (turtlebot3_gazebo) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.121710] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.123751] (-) TimerEvent: {}
+[1.130366] (turtlebot3_gazebo) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.133027] (turtlebot3_gazebo) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.133662] (turtlebot3_gazebo) StderrLine: {'line': b'  /root/ros_workspace/build/turtlebot3_gazebo/ament_cmake_package_templates/templates.cmake)\n'}
+[1.134802] (turtlebot3_gazebo) StderrLine: {'line': b'  returned error code 1\n'}
+[1.135303] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.135891] (turtlebot3_gazebo) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.136696] (turtlebot3_gazebo) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.137380] (turtlebot3_gazebo) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.139523] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:22 (find_package)\n'}
+[1.142480] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[1.146359] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[1.150456] (turtlebot3_navigation2) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.150772] (turtlebot3_navigation2) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.151262] (turtlebot3_navigation2) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.153899] (turtlebot3_navigation2) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.154444] (turtlebot3_navigation2) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.154950] (turtlebot3_navigation2) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.155378] (turtlebot3_navigation2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.155608] (turtlebot3_navigation2) StderrLine: {'line': b'  /root/ros_workspace/build/turtlebot3_navigation2/ament_cmake_package_templates/templates.cmake)\n'}
+[1.155815] (turtlebot3_navigation2) StderrLine: {'line': b'  returned error code 1\n'}
+[1.156035] (turtlebot3_navigation2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.156246] (turtlebot3_navigation2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.156482] (turtlebot3_navigation2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.156688] (turtlebot3_navigation2) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.157078] (turtlebot3_navigation2) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[1.157326] (turtlebot3_navigation2) StderrLine: {'line': b'\n'}
+[1.157418] (turtlebot3_navigation2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.157505] (turtlebot3_msgs) CommandEnded: {'returncode': 1}
+[1.169651] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 1}
+[1.175932] (dynamixel_sdk) CommandEnded: {'returncode': 1}
+[1.201761] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 1}
+[1.207655] (turtlebot3_description) CommandEnded: {'returncode': 1}
+[1.223795] (-) TimerEvent: {}
+[1.260022] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 1}
+[1.262869] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 1}
+[1.308283] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 1}
+[1.319405] (turtlebot3_navigation2) CommandEnded: {'returncode': 1}
+[1.324299] (-) TimerEvent: {}
+[1.341920] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 1}
+[1.346037] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 'SIGINT'}
+[1.347533] (turtlebot3_cartographer) JobEnded: {'identifier': 'turtlebot3_cartographer', 'rc': 'SIGINT'}
+[1.349420] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 'SIGINT'}
+[1.356902] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[1.357007] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[1.357038] (turtlebot3_fake_node) JobSkipped: {'identifier': 'turtlebot3_fake_node'}
+[1.357062] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[1.357086] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[1.357109] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[1.357133] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[1.357158] (-) EventReactorShutdown: {}
