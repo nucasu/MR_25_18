@@ -1,0 +1,43 @@
+[3.591s] Invoking command in '/root/ros_workspace/build/turtlebot3_teleop': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build --no-deps symlink_data --force
+[4.880s] Traceback (most recent call last):
+[4.881s]   File "/root/ros_workspace/build/turtlebot3_teleop/setup.py", line 6, in <module>
+[4.882s]     setup(
+[4.882s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[4.897s]     return distutils.core.setup(**attrs)
+[4.898s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.898s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup
+[4.898s]     ok = dist.parse_command_line()
+[4.903s]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.906s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line
+[4.909s]     args = self._parse_command_opts(parser, args)
+[4.927s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.929s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts
+[4.929s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[4.930s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.930s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts
+[4.931s]     cmd_class = self.get_command_class(command)
+[4.931s]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.933s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 978, in get_command_class
+[4.933s]     eps = metadata.entry_points(group='distutils.commands', name=command)
+[4.934s]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.934s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points
+[4.934s]     return EntryPoints(eps).select(**params)
+[4.935s]            ^^^^^^^^^^^^^^^^
+[4.935s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 910, in <genexpr>
+[4.936s]     eps = itertools.chain.from_iterable(
+[4.936s]                                        ^
+[4.937s]   File "/usr/lib/python3.12/importlib/metadata/_itertools.py", line 16, in unique_everseen
+[4.939s]     k = key(element)
+[4.939s]         ^^^^^^^^^^^^
+[4.939s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 834, in _normalized_name
+[4.939s]     pass_none(Prepared.normalize)(self._name_from_stem(stem))
+[4.940s]   File "/usr/lib/python3.12/importlib/metadata/_functools.py", line 102, in wrapper
+[4.940s]     return func(param, *args, **kwargs)
+[4.940s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.942s]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 762, in normalize
+[4.942s]     return re.sub(r"[-_.]+", "-", name).lower().replace('-', '_')
+[4.942s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.942s]   File "/usr/lib/python3.12/re/__init__.py", line 186, in sub
+[4.943s]     return _compile(pattern, flags).sub(repl, string, count)
+[4.943s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[4.943s] KeyboardInterrupt
