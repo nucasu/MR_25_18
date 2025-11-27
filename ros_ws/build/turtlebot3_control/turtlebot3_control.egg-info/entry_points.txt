@@ -1,0 +1,2 @@
+[console_scripts]
+waypoint_controller = turtlebot3_control.waypoint_controller:main
