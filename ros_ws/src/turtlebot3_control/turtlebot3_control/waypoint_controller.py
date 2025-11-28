@@ -21,14 +21,22 @@ class WaypointController(Node):
         self.y = 0.0
         self.theta = 0.0
  
-        # Waypoints: (x, y, theta_d)
+        # Waypoints: (x, y)
         self.waypoints = [
-            (1.0, 0.0, 0.0),
-            (1.5, 0.0, 0.0)
+            (6.0, 0.0),
+            (6.0, -1.0),
+            (5.5, -1.0),
+            (5.5, -4.0),
+            (7.0, -4.0),
+            (7.0, -1.0),
+            (6.0, -1.0),
+            (6.0, 1.0),
+            (7.0, 1.0),
+            (7.0, 4.0)
         ]
         self.index = 0
  
-        # Guadagni (puoi regolarli)
+        # Guadagni
         self.k1 = 0.5   # velocità lineare
         self.k2 = 1.5   # velocità angolare
  
@@ -54,7 +62,7 @@ class WaypointController(Node):
             self.cmd_pub.publish(stop_msg)
             return
  
-        x_d, y_d, _ = self.waypoints[self.index]
+        x_d, y_d = self.waypoints[self.index]
  
         # --- ERRORE NEL FRAME DEL ROBOT ---
         dx = x_d - self.x
@@ -74,7 +82,8 @@ class WaypointController(Node):
         # --- CARTESIAN REGULATOR ---
         v = self.k1 * ex
         w = self.k2 * math.atan2(ey, ex)
- 
+
+
         # Saturazioni
         v = max(min(v, 0.3), -0.3)
         w = max(min(w, 1.0), -1.0)
