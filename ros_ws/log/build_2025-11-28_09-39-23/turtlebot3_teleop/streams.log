@@ -1,0 +1,19 @@
+[6.525s] Invoking command in '/root/ros_workspace/build/turtlebot3_teleop': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build --no-deps symlink_data --force
+[8.086s] running develop
+[8.968s] running egg_info
+[9.030s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[9.032s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[9.045s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[9.046s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[9.046s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[9.173s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.174s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.272s] running build_ext
+[9.275s] Creating /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[9.279s] Installing teleop_keyboard script to /root/ros_workspace/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[9.308s] 
+[9.308s] Installed /root/ros_workspace/build/turtlebot3_teleop
+[9.309s] running symlink_data
+[9.310s] symbolically linking /root/ros_workspace/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /root/ros_workspace/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[9.311s] symbolically linking /root/ros_workspace/build/turtlebot3_teleop/package.xml -> /root/ros_workspace/install/turtlebot3_teleop/share/turtlebot3_teleop
+[9.501s] Invoked command in '/root/ros_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build --no-deps symlink_data --force

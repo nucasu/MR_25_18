@@ -1,0 +1,21 @@
+[0.164s] Invoking command in '/root/ros_workspace/build/turtlebot3_msgs': /usr/bin/cmake /root/ros_workspace/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_msgs
+[1.678s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[1.684s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.686s] -- Configuring incomplete, errors occurred!
+[1.687s] Traceback (most recent call last):
+[1.689s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.690s]     from ament_package.templates import get_environment_hook_template_path
+[1.690s] ModuleNotFoundError: No module named 'ament_package'
+[1.690s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.697s]   execute_process(/usr/bin/python3
+[1.699s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.700s]   /root/ros_workspace/build/turtlebot3_msgs/ament_cmake_package_templates/templates.cmake)
+[1.705s]   returned error code 1
+[1.706s] Call Stack (most recent call first):
+[1.706s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.707s]   /opt/ros/jazzy/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.707s]   /opt/ros/jazzy/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)
+[1.707s]   CMakeLists.txt:18 (find_package)
+[1.708s] 
+[1.708s] [0m
+[1.763s] Invoked command in '/root/ros_workspace/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /root/ros_workspace/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_msgs
