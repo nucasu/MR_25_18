@@ -24,15 +24,25 @@ class WaypointController(Node):
         # Waypoints: (x, y)
         self.waypoints = [
             (6.0, 0.0),
-            (6.0, -1.0),
-            (5.5, -1.0),
-            (5.5, -4.0),
-            (7.0, -4.0),
-            (7.0, -1.0),
-            (6.0, -1.0),
-            (6.0, 1.0),
-            (7.0, 1.0),
-            (7.0, 4.0)
+
+            # STANZA 1
+            #(6.0, -1.5),
+            #(5.5, -3.5),
+            #(6.5, -4.5),
+            #(7.0, -2.5),
+            #(6.0, -0.5),
+
+            (7.0, 2.5),
+            (6.0, 3.5),
+
+            # STANZA 2
+            #(1.0, 4.0),
+            #(0.5, 2.5),
+            #(1.0, 1.5),
+            #(2.0, 4.0),
+
+            (3.0, 4.0),
+            (3.0, 0.0)
         ]
         self.index = 0
  
@@ -55,7 +65,7 @@ class WaypointController(Node):
         self.theta = math.atan2(siny_cosp, cosy_cosp)
  
     def control_loop(self):
-        """Loop principale per raggiungere il waypoint corrente."""
+        
         if self.index >= len(self.waypoints):
             # Tutti i waypoint completati, ferma il robot
             stop_msg = Twist()
@@ -78,14 +88,13 @@ class WaypointController(Node):
             self.get_logger().info(f"Waypoint {self.index + 1} raggiunto!")
             self.index += 1
             return
- 
+
         # --- CARTESIAN REGULATOR ---
         v = self.k1 * ex
         w = self.k2 * math.atan2(ey, ex)
 
-
         # Saturazioni
-        v = max(min(v, 0.3), -0.3)
+        v = max(min(v, 0.5), -0.5)
         w = max(min(w, 1.0), -1.0)
  
         # Pubblica comandi
