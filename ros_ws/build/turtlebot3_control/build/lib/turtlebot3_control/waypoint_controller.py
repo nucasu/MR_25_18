@@ -44,25 +44,27 @@ class WaypointController(Node):
             #(3.0, 4.0),
             #(3.0, 0.0),
 
-            (-1.0, 1.0),
-            (-1.0, 3.5),
-            #(-4.5, 3.0),
+            (-1.0, 0.0),
+            (-1.0, 4.0),
+            (-4.5, 3.0),
 
             #STANZA 3
-            (-6.5, 3.0),
-            (-6.5, -3.5),
-            (-6.5, 2.5),
-            #(-6.0, -1.0),
-            #(-6.0, +3.0),
+            (-6.0, 3.0),
+            (-6.0, -3.0),
+            (-7.0, -2.0),
+            (-6.0, -1.0),
+            (-6.0, +3.0),
 
             (-4.5, +2.0),
-            (-3.0, 0.0),
-            (0.0, 0.0)
+            (-4.5, 0.0),
+            (0.0, 0.0),
+
+
         ]
         self.index = 0
  
         # Guadagni
-        self.k1 = 0.8   # velocità lineare
+        self.k1 = 0.75   # velocità lineare
         self.k2 = 1.5   # velocità angolare
  
         # Timer di controllo (20 Hz)
@@ -109,7 +111,7 @@ class WaypointController(Node):
         w = self.k2 * math.atan2(ey, ex)
 
         # Saturazioni
-        v = max(min(v, 0.8), -0.8)
+        v = max(min(v, 1), -1)
         w = max(min(w, 1.0), -1.0)
  
         # Pubblica comandi

@@ -1,0 +1,24 @@
+[0.189s] Invoking command in '/root/ros_workspace/build/turtlebot3_cartographer': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_cartographer -- -j12 -l12
+[1.189s] Invoked command in '/root/ros_workspace/build/turtlebot3_cartographer' returned '0': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_cartographer -- -j12 -l12
+[1.193s] Invoking command in '/root/ros_workspace/build/turtlebot3_cartographer': /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_cartographer
+[1.380s] -- Install configuration: ""
+[1.380s] -- Execute custom install script
+[1.380s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.380s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.380s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.381s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.381s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.382s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.382s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.384s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.384s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.384s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.384s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.385s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.385s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.385s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.385s] -- Symlinking: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.386s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.386s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.386s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.387s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml

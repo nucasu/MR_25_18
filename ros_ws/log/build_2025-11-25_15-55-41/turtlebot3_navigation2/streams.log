@@ -1,0 +1,32 @@
+[0.291s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_navigation2 -- -j12 -l12
+[1.656s] Invoked command in '/root/ros_workspace/build/turtlebot3_navigation2' returned '0': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_navigation2 -- -j12 -l12
+[1.714s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_navigation2
+[2.201s] -- Install configuration: ""
+[2.201s] -- Execute custom install script
+[2.202s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.202s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[2.202s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[2.202s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.203s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[2.204s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[2.205s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[2.206s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[2.212s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[2.215s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.215s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.215s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.216s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.216s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.217s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.217s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.217s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.218s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.218s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.218s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.218s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.219s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[2.219s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[2.220s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.220s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.221s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.221s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml

@@ -1,0 +1,20 @@
+[0.240s] Invoking command in '/root/ros_workspace/build/turtlebot3_cartographer': /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_cartographer
+[1.536s] Traceback (most recent call last):
+[1.536s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.536s]     from ament_package.templates import get_environment_hook_template_path
+[1.536s] ModuleNotFoundError: No module named 'ament_package'
+[1.537s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.537s]   execute_process(/usr/bin/python3
+[1.537s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.537s]   /root/ros_workspace/build/turtlebot3_cartographer/ament_cmake_package_templates/templates.cmake)
+[1.537s]   returned error code 1
+[1.537s] Call Stack (most recent call first):
+[1.537s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.537s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.537s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.537s]   CMakeLists.txt:14 (find_package)
+[1.537s] 
+[1.538s] [0m
+[1.539s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.539s] -- Configuring incomplete, errors occurred!
+[1.827s] Invoked command in '/root/ros_workspace/build/turtlebot3_cartographer' returned '1': /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_cartographer

@@ -1,0 +1,20 @@
+[0.121s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk
+[1.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.024s] -- Configuring incomplete, errors occurred!
+[1.027s] Traceback (most recent call last):
+[1.029s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.030s]     from ament_package.templates import get_environment_hook_template_path
+[1.031s] ModuleNotFoundError: No module named 'ament_package'
+[1.031s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.032s]   execute_process(/usr/bin/python3
+[1.032s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.034s]   /root/ros_workspace/build/dynamixel_sdk/ament_cmake_package_templates/templates.cmake)
+[1.034s]   returned error code 1
+[1.035s] Call Stack (most recent call first):
+[1.035s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.035s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.038s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.041s]   CMakeLists.txt:18 (find_package)
+[1.042s] 
+[1.042s] [0m
+[1.160s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '1': /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk

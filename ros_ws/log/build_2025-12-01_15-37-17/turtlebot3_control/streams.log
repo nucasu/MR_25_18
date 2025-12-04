@@ -1,0 +1,32 @@
+[3.485s] Invoking command in '/root/ros_workspace/build/turtlebot3_control': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build
+[4.651s] running develop
+[5.244s] Removing /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3-control.egg-link (link to .)
+[5.337s] Invoked command in '/root/ros_workspace/build/turtlebot3_control' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build
+[5.340s] Invoking command in '/root/ros_workspace/src/turtlebot3_control': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_control build --build-base /root/ros_workspace/build/turtlebot3_control/build install --record /root/ros_workspace/build/turtlebot3_control/install.log --single-version-externally-managed install_data --force
+[6.142s] running egg_info
+[6.215s] writing ../../build/turtlebot3_control/turtlebot3_control.egg-info/PKG-INFO
+[6.216s] writing dependency_links to ../../build/turtlebot3_control/turtlebot3_control.egg-info/dependency_links.txt
+[6.216s] writing entry points to ../../build/turtlebot3_control/turtlebot3_control.egg-info/entry_points.txt
+[6.225s] writing requirements to ../../build/turtlebot3_control/turtlebot3_control.egg-info/requires.txt
+[6.226s] writing top-level names to ../../build/turtlebot3_control/turtlebot3_control.egg-info/top_level.txt
+[6.426s] reading manifest file '../../build/turtlebot3_control/turtlebot3_control.egg-info/SOURCES.txt'
+[6.426s] writing manifest file '../../build/turtlebot3_control/turtlebot3_control.egg-info/SOURCES.txt'
+[6.426s] running build
+[6.427s] running build_py
+[6.427s] copying turtlebot3_control/waypoint_controller.py -> /root/ros_workspace/build/turtlebot3_control/build/lib/turtlebot3_control
+[6.435s] running install
+[6.451s] running install_lib
+[6.484s] creating /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control
+[6.485s] copying /root/ros_workspace/build/turtlebot3_control/build/lib/turtlebot3_control/__init__.py -> /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control
+[6.489s] copying /root/ros_workspace/build/turtlebot3_control/build/lib/turtlebot3_control/waypoint_controller.py -> /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control
+[6.489s] byte-compiling /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control/__init__.py to __init__.cpython-312.pyc
+[6.490s] byte-compiling /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control/waypoint_controller.py to waypoint_controller.cpython-312.pyc
+[6.493s] running install_data
+[6.494s] copying resource/turtlebot3_control -> /root/ros_workspace/install/turtlebot3_control/share/ament_index/resource_index/packages
+[6.494s] copying package.xml -> /root/ros_workspace/install/turtlebot3_control/share/turtlebot3_control
+[6.494s] running install_egg_info
+[6.543s] Copying ../../build/turtlebot3_control/turtlebot3_control.egg-info to /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3_control-0.0.0-py3.12.egg-info
+[6.548s] running install_scripts
+[6.944s] Installing waypoint_controller script to /root/ros_workspace/install/turtlebot3_control/lib/turtlebot3_control
+[6.945s] writing list of installed files to '/root/ros_workspace/build/turtlebot3_control/install.log'
+[7.061s] Invoked command in '/root/ros_workspace/src/turtlebot3_control' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_control build --build-base /root/ros_workspace/build/turtlebot3_control/build install --record /root/ros_workspace/build/turtlebot3_control/install.log --single-version-externally-managed install_data --force

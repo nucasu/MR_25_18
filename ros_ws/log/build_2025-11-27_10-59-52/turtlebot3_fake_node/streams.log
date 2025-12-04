@@ -1,0 +1,52 @@
+[0.705s] Invoking command in '/root/ros_workspace/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_fake_node -- -j8 -l8
+[0.816s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.688s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.709s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.774s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.798s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.970s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.055s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.144s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.148s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.491s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.538s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[2.546s] -- Found tf2_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.663s] -- Found turtlebot3_msgs: 2.4.0 (/root/ros_workspace/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.042s] -- Configuring done (2.2s)
+[3.183s] -- Generating done (0.1s)
+[3.212s] -- Build files have been written to: /root/ros_workspace/build/turtlebot3_fake_node
+[3.531s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[37.181s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[38.489s] [100%] Built target turtlebot3_fake_node
+[38.525s] Invoked command in '/root/ros_workspace/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_fake_node -- -j8 -l8
+[38.528s] Invoking command in '/root/ros_workspace/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_fake_node
+[38.552s] -- Install configuration: ""
+[38.553s] -- Execute custom install script
+[38.554s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[38.557s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[38.558s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[38.560s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[38.561s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[38.562s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[38.563s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[38.564s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[38.565s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[38.566s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[38.567s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[38.568s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[38.569s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[38.570s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[38.571s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[38.572s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[38.574s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[38.574s] -- Symlinking: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[38.601s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[38.602s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.603s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.604s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[38.605s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[38.606s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[38.612s] Invoked command in '/root/ros_workspace/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_workspace/install/turtlebot3_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros_workspace/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_workspace/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_fake_node

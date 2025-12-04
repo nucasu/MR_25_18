@@ -1,0 +1,34 @@
+[4.945s] Invoking command in '/root/ros_workspace/build/turtlebot3_teleop': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build
+[6.089s] running develop
+[6.916s] Removing /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[7.098s] Invoked command in '/root/ros_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build
+[7.106s] Invoking command in '/root/ros_workspace/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /root/ros_workspace/build/turtlebot3_teleop/build install --record /root/ros_workspace/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
+[8.076s] running egg_info
+[8.135s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[8.140s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[8.140s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[8.141s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[8.141s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[8.225s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.228s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.228s] running build
+[8.228s] running build_py
+[8.232s] running install
+[8.255s] running install_lib
+[8.311s] creating /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[8.311s] copying /root/ros_workspace/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[8.312s] creating /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[8.312s] copying /root/ros_workspace/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[8.312s] copying /root/ros_workspace/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[8.313s] byte-compiling /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-312.pyc
+[8.314s] byte-compiling /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-312.pyc
+[8.315s] byte-compiling /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[8.318s] running install_data
+[8.319s] copying resource/turtlebot3_teleop -> /root/ros_workspace/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[8.319s] copying package.xml -> /root/ros_workspace/install/turtlebot3_teleop/share/turtlebot3_teleop
+[8.322s] running install_egg_info
+[8.369s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop-2.3.4-py3.12.egg-info
+[8.371s] running install_scripts
+[8.743s] Installing teleop_keyboard script to /root/ros_workspace/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[8.743s] writing list of installed files to '/root/ros_workspace/build/turtlebot3_teleop/install.log'
+[8.884s] Invoked command in '/root/ros_workspace/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /root/ros_workspace/build/turtlebot3_teleop/build install --record /root/ros_workspace/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
