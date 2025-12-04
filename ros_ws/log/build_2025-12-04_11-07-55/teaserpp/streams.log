@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/root/ros_workspace/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/teaserpp -- -j8 -l8
+[2.394s] [  5%] Built target teaser_io
+[2.395s] [ 11%] Built target gtest
+[2.395s] [ 37%] Built target pmc
+[2.395s] [ 42%] Built target gmock
+[2.395s] [ 54%] Built target teaser_registration
+[2.396s] [ 91%] Built target all_tests
+[2.396s] [100%] Built target all_benchmarks
+[2.409s] Invoked command in '/root/ros_workspace/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/teaserpp -- -j8 -l8
+[2.418s] Invoking command in '/root/ros_workspace/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/teaserpp
+[2.649s] -- Install configuration: "Release"
+[2.650s] -- Up-to-date: /root/ros_workspace/install/teaserpp/lib/libteaser_io.so
+[2.650s] -- Up-to-date: /root/ros_workspace/install/teaserpp/lib/libteaser_registration.so
+[2.653s] -- Up-to-date: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppTargets.cmake
+[2.653s] -- Up-to-date: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppTargets-release.cmake
+[2.654s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include
+[2.655s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser
+[2.655s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/matcher.h
+[2.659s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/fpfh.h
+[2.659s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/geometry.h
+[2.659s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/ply_io.h
+[2.659s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/linalg.h
+[2.660s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/utils.h
+[2.661s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/certification.h
+[2.661s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/registration.h
+[2.661s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/graph.h
+[2.661s] -- Up-to-date: /root/ros_workspace/install/teaserpp/include/teaser/macros.h
+[2.661s] -- Up-to-date: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppConfig.cmake
+[2.667s] Invoked command in '/root/ros_workspace/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/teaserpp

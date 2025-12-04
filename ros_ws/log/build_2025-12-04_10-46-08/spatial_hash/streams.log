@@ -1,0 +1,64 @@
+[0.123s] Invoking command in '/root/ros_workspace/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spatial_hash -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/spatial_hash
+[1.811s] -- The C compiler identification is GNU 13.3.0
+[1.811s] -- The CXX compiler identification is GNU 13.3.0
+[1.813s] -- Detecting C compiler ABI info
+[1.813s] -- Detecting C compiler ABI info - done
+[1.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.813s] -- Detecting C compile features
+[1.813s] -- Detecting C compile features - done
+[1.813s] -- Detecting CXX compiler ABI info
+[1.813s] -- Detecting CXX compiler ABI info - done
+[1.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.824s] -- Detecting CXX compile features
+[1.825s] -- Detecting CXX compile features - done
+[1.924s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.924s] -- Checking for module 'libglog'
+[1.990s] --   Found libglog, version 0.6.0
+[3.112s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+[3.146s] -- Configuring done (3.0s)
+[3.376s] -- Generating done (0.2s)
+[3.408s] -- Build files have been written to: /root/ros_workspace/build/spatial_hash
+[3.448s] Invoked command in '/root/ros_workspace/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spatial_hash -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/spatial_hash
+[3.449s] Invoking command in '/root/ros_workspace/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spatial_hash -- -j8 -l8
+[5.885s] [  7%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/block.cpp.o[0m
+[5.885s] [ 21%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/neighbor_utils.cpp.o[0m
+[5.885s] [ 21%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/grid.cpp.o[0m
+[12.818s] [ 28%] [32m[1mLinking CXX static library libspatial_hash.a[0m
+[13.351s] [ 28%] Built target spatial_hash
+[13.787s] [ 35%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_main.cpp.o[0m
+[13.824s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block_layer.cpp.o[0m
+[13.824s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_grid.cpp.o[0m
+[13.832s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block.cpp.o[0m
+[13.859s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_neighbor_utils.cpp.o[0m
+[13.896s] [ 71%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_hash.cpp.o[0m
+[13.896s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_layer.cpp.o[0m
+[13.917s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_block.cpp.o[0m
+[50.110s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_layer.cpp.o[0m
+[64.628s] [100%] [32m[1mLinking CXX executable utest_spatial_hash[0m
+[65.330s] [100%] Built target utest_spatial_hash
+[65.716s] Invoked command in '/root/ros_workspace/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spatial_hash -- -j8 -l8
+[65.726s] Invoking command in '/root/ros_workspace/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/spatial_hash
+[80.564s] -- Install configuration: "Release"
+[80.565s] -- Installing: /root/ros_workspace/install/spatial_hash/lib/libspatial_hash.a
+[80.565s] -- Installing: /root/ros_workspace/install/spatial_hash/include
+[80.566s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash
+[80.566s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/voxel_block.h
+[80.566s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/layer.h
+[80.568s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/grid.h
+[80.568s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl
+[80.569s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl/voxel_layer_impl.h
+[80.569s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl/neighbor_utils_impl.h
+[80.571s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl/layer_impl.h
+[80.571s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h
+[80.574s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/impl/block_layer_impl.h
+[80.575s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/types.h
+[80.575s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/block.h
+[80.575s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/block_layer.h
+[80.575s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/neighbor_utils.h
+[80.576s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/hash.h
+[80.576s] -- Installing: /root/ros_workspace/install/spatial_hash/include/spatial_hash/voxel_layer.h
+[80.576s] -- Installing: /root/ros_workspace/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets.cmake
+[80.576s] -- Installing: /root/ros_workspace/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets-release.cmake
+[80.576s] -- Installing: /root/ros_workspace/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfig.cmake
+[80.577s] -- Installing: /root/ros_workspace/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfigVersion.cmake
+[80.643s] Invoked command in '/root/ros_workspace/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/spatial_hash

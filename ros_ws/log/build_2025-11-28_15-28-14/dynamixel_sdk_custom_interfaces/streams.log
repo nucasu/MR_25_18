@@ -1,0 +1,32 @@
+[0.101s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk_custom_interfaces
+[0.822s] -- The C compiler identification is GNU 13.3.0
+[1.340s] -- The CXX compiler identification is GNU 13.3.0
+[1.403s] -- Detecting C compiler ABI info
+[1.778s] -- Detecting C compiler ABI info - done
+[1.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.803s] -- Detecting C compile features
+[1.808s] -- Detecting C compile features - done
+[1.837s] -- Detecting CXX compiler ABI info
+[2.342s] -- Detecting CXX compiler ABI info - done
+[2.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.353s] -- Detecting CXX compile features
+[2.356s] -- Detecting CXX compile features - done
+[2.372s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.211s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.651s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.001s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.223s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.302s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.588s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.681s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.313s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.320s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.568s] -- Found PythonExtra: /usr/bin/python3  
+[10.624s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.729s] -- Configuring done (10.4s)
+[10.896s] -- Generating done (0.1s)
+[10.923s] -- Build files have been written to: /root/ros_workspace/build/dynamixel_sdk_custom_interfaces

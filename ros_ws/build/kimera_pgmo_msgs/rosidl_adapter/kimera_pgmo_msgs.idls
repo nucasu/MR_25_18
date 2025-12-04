@@ -1,0 +1,6 @@
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/AbsolutePoseStamped.idl
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/Mesh.idl
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/MeshDelta.idl
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/TriangleIndices.idl
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:srv/LoadGraphMesh.idl
+/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:srv/MeshDeltaQuery.idl

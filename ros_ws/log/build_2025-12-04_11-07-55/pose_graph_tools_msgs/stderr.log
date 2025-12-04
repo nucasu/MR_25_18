@@ -1,0 +1,4 @@
+failed to create symbolic link '/root/ros_workspace/build/pose_graph_tools_msgs/ament_cmake_python/pose_graph_tools_msgs/pose_graph_tools_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_pose_graph_tools_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_pose_graph_tools_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_pose_graph_tools_msgs.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

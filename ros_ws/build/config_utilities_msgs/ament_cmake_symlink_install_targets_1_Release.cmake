@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/build/config_utilities_msgs/rosidl_generator_py/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "config_utilities_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/config_utilities_msgs")

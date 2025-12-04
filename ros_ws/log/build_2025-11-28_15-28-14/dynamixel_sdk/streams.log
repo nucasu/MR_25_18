@@ -1,0 +1,45 @@
+[0.108s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk
+[0.861s] -- The C compiler identification is GNU 13.3.0
+[1.315s] -- The CXX compiler identification is GNU 13.3.0
+[1.383s] -- Detecting C compiler ABI info
+[1.766s] -- Detecting C compiler ABI info - done
+[1.788s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.788s] -- Detecting C compile features
+[1.789s] -- Detecting C compile features - done
+[1.827s] -- Detecting CXX compiler ABI info
+[2.342s] -- Detecting CXX compiler ABI info - done
+[2.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.366s] -- Detecting CXX compile features
+[2.366s] -- Detecting CXX compile features - done
+[2.384s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.346s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.780s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.621s] -- Configuring done (4.3s)
+[4.665s] -- Generating done (0.0s)
+[4.674s] -- Build files have been written to: /root/ros_workspace/build/dynamixel_sdk
+[4.700s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/dynamixel_sdk
+[4.701s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j8 -l8
+[5.702s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[5.703s] [  7%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[5.703s] [ 15%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[5.703s] [ 23%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[5.703s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[5.703s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[5.703s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[5.704s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[5.704s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[5.954s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[6.370s] [ 76%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[6.442s] [ 84%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[6.749s] [ 92%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[7.085s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[7.206s] running egg_info
+[7.208s] creating dynamixel_sdk.egg-info
+[7.241s] writing dynamixel_sdk.egg-info/PKG-INFO
+[7.242s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[7.242s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[7.243s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[7.324s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[7.325s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[7.344s] [100%] Built target dynamixel_sdk
+[7.417s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg

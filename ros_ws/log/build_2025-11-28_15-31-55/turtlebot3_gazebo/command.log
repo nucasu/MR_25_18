@@ -1,0 +1,1 @@
+Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j8 -l8

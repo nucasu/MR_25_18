@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/build/hydra_msgs/rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so" "TARGETS" "hydra_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/hydra_msgs")

@@ -1,0 +1,86 @@
+[0.125s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j8 -l8
+[0.492s] [100%] Built target dynamixel_sdk
+[0.513s] [100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.522s] running egg_info
+[1.671s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.672s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.680s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.750s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.753s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.879s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.205s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/dynamixel_sdk -- -j8 -l8
+[2.207s] Invoking command in '/root/ros_workspace/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk
+[2.229s] -- Install configuration: ""
+[2.230s] -- Execute custom install script
+[2.232s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.232s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.233s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.234s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[2.234s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[2.235s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[2.235s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.237s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.238s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.245s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.246s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.246s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.246s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.246s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.246s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.247s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.247s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[2.249s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/PKG-INFO
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/SOURCES.txt
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/dependency_links.txt
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/top_level.txt
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[2.250s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[2.262s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[2.263s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[2.263s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[2.265s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[2.265s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[2.266s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[2.268s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[2.269s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[2.269s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[2.269s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[2.270s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[2.276s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[2.289s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[2.290s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[2.290s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[2.290s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[2.298s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.299s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.299s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.299s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.300s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.301s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.301s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.301s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.302s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.309s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.309s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.309s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.309s] -- Symlinking: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.353s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.354s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[2.354s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.354s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.354s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.355s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.355s] -- Up-to-date symlink: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.355s] -- Up-to-date: /root/ros_workspace/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.495s] Listing '/root/ros_workspace/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[2.523s] -- Up-to-date: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[2.523s] -- Up-to-date: /root/ros_workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[2.528s] Invoked command in '/root/ros_workspace/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/dynamixel_sdk

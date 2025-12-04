@@ -1,0 +1,6 @@
+Invoking command in '/root/ros_workspace/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/ianvs
+Invoked command in '/root/ros_workspace/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/ianvs
+Invoking command in '/root/ros_workspace/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/ianvs -- -j8 -l8
+Invoked command in '/root/ros_workspace/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/ianvs -- -j8 -l8
+Invoking command in '/root/ros_workspace/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/ianvs
+Invoked command in '/root/ros_workspace/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/ianvs

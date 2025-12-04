@@ -1,0 +1,17 @@
+[2.611s] Invoking command in '/root/ros_workspace/build/turtlebot3_control': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build --no-deps symlink_data
+[3.388s] running develop
+[3.721s] running egg_info
+[3.755s] writing turtlebot3_control.egg-info/PKG-INFO
+[3.755s] writing dependency_links to turtlebot3_control.egg-info/dependency_links.txt
+[3.756s] writing entry points to turtlebot3_control.egg-info/entry_points.txt
+[3.756s] writing requirements to turtlebot3_control.egg-info/requires.txt
+[3.757s] writing top-level names to turtlebot3_control.egg-info/top_level.txt
+[3.821s] reading manifest file 'turtlebot3_control.egg-info/SOURCES.txt'
+[3.822s] writing manifest file 'turtlebot3_control.egg-info/SOURCES.txt'
+[3.851s] running build_ext
+[3.851s] Creating /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3-control.egg-link (link to .)
+[3.853s] Installing waypoint_controller script to /root/ros_workspace/install/turtlebot3_control/lib/turtlebot3_control
+[3.854s] 
+[3.854s] Installed /root/ros_workspace/build/turtlebot3_control
+[3.855s] running symlink_data
+[3.991s] Invoked command in '/root/ros_workspace/build/turtlebot3_control' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build --no-deps symlink_data

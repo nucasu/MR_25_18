@@ -1,0 +1,11 @@
+{
+  "package_name": "kimera_pgmo_msgs",
+  "non_idl_tuples": [
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:msg/AbsolutePoseStamped.msg",
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:msg/Mesh.msg",
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:msg/MeshDelta.msg",
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:msg/TriangleIndices.msg",
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:srv/LoadGraphMesh.srv",
+    "/root/ros_workspace/src/kimera_pgmo/kimera_pgmo_msgs:srv/MeshDeltaQuery.srv"
+  ]
+}

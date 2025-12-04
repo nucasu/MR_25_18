@@ -1,0 +1,21 @@
+[0.079s] Invoking command in '/root/ros_workspace/build/kimera_rpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/kimera_rpgo -- -j8 -l8
+[0.386s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[0.386s]   By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+[0.386s]   asked CMake to find a package configuration file provided by "GTSAM", but
+[0.387s]   CMake did not find one.
+[0.387s] 
+[0.387s]   Could not find a package configuration file provided by "GTSAM" with any of
+[0.387s]   the following names:
+[0.388s] 
+[0.388s]     GTSAMConfig.cmake
+[0.388s]     gtsam-config.cmake
+[0.388s] 
+[0.389s]   Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+[0.389s]   "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+[0.390s]   provides a separate development package or SDK, be sure it has been
+[0.390s]   installed.
+[0.390s] 
+[0.390s] [0m
+[0.391s] -- Configuring incomplete, errors occurred!
+[0.393s] gmake: *** [Makefile:1118: cmake_check_build_system] Error 1
+[0.403s] Invoked command in '/root/ros_workspace/build/kimera_rpgo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/kimera_rpgo -- -j8 -l8

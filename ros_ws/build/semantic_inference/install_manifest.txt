@@ -1,0 +1,12 @@
+/root/ros_workspace/install/semantic_inference/lib/libsemantic_inference.so
+/root/ros_workspace/install/semantic_inference/bin/demo_segmentation
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/model_config.h
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/segmenter.h
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/image_utilities.h
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/logging.h
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/image_rotator.h
+/root/ros_workspace/install/semantic_inference/include/semantic_inference/image_recolor.h
+/root/ros_workspace/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets.cmake
+/root/ros_workspace/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets-release.cmake
+/root/ros_workspace/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfig.cmake
+/root/ros_workspace/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfigVersion.cmake

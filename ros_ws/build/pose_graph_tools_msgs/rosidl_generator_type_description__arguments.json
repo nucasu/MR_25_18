@@ -1,0 +1,29 @@
+{
+  "package_name": "pose_graph_tools_msgs",
+  "output_dir": "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_generator_type_description/pose_graph_tools_msgs",
+  "idl_tuples": [
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowQueries.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowQuery.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowRequests.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowVector.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/LoopClosures.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/LoopClosuresAck.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraph.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraphEdge.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraphNode.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/TimeRangeQuery.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCFrameMsg.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCFrames.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCRequests.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/LcdFrameRegistration.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/PoseGraphQuery.idl",
+    "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/VLCFrameQuery.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

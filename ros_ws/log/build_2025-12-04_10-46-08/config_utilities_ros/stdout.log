@@ -1,0 +1,108 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Unwind: /usr/include/x86_64-linux-gnu (found suitable version "1.6.2", minimum required is "1.6.2") 
+-- Found config_utilities_msgs: 2.0.0 (/root/ros_workspace/install/config_utilities_msgs/share/config_utilities_msgs/cmake)
+-- Configuring done (5.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/ros_workspace/build/config_utilities_ros
+[ 25%] [32mBuilding CXX object CMakeFiles/config_utilities_ros.dir/src/ros_dynamic_config_server.cpp.o[0m
+[ 25%] Built target ament_cmake_python_copy_config_utilities_ros
+running egg_info
+creating config_utilities_ros.egg-info
+writing config_utilities_ros.egg-info/PKG-INFO
+writing dependency_links to config_utilities_ros.egg-info/dependency_links.txt
+writing top-level names to config_utilities_ros.egg-info/top_level.txt
+writing manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+reading manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+writing manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+[ 25%] Built target ament_cmake_python_build_config_utilities_ros_egg
+[ 50%] [32m[1mLinking CXX shared library libconfig_utilities_ros.so[0m
+[ 50%] Built target config_utilities_ros
+[ 75%] [32mBuilding CXX object CMakeFiles/demo_ros_dynamic_config_server.dir/demos/demo_ros_dynamic_config_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_ros_dynamic_config_server[0m
+[100%] Built target demo_ros_dynamic_config_server
+-- Install configuration: "Release"
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.sh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/__init__.py
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/README.md
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/build_fields.js
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/selection_panes.js
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/config_table.js
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css/style.css
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/__init__.py
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates/index.html
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/dynamic_config_gui.py
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros'...
+Compiling '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/__init__.py'...
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui'...
+Compiling '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/__init__.py'...
+Compiling '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/dynamic_config_gui.py'...
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static'...
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css'...
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js'...
+Listing '/root/ros_workspace/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates'...
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/libconfig_utilities_ros.so
+-- Set non-toolchain portion of runtime path of "/root/ros_workspace/install/config_utilities_ros/lib/libconfig_utilities_ros.so" to ""
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/config_utilities_ros/demo_ros_dynamic_config_server
+-- Set non-toolchain portion of runtime path of "/root/ros_workspace/install/config_utilities_ros/lib/config_utilities_ros/demo_ros_dynamic_config_server" to ""
+-- Installing: /root/ros_workspace/install/config_utilities_ros/include/config_utilities_ros/
+-- Installing: /root/ros_workspace/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros
+-- Installing: /root/ros_workspace/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros/ros_dynamic_config_server.h
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros//launch
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros//launch/demo_ros_dynamic_config.yaml
+-- Installing: /root/ros_workspace/install/config_utilities_ros/lib/config_utilities_ros/gui
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.sh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/ament_index/resource_index/package_run_dependencies/config_utilities_ros
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/ament_index/resource_index/parent_prefix_path/config_utilities_ros
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.sh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/path.sh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/environment/path.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/local_setup.bash
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/local_setup.sh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/local_setup.zsh
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/local_setup.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/package.dsv
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/ament_index/resource_index/packages/config_utilities_ros
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport-release.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig-version.cmake
+-- Installing: /root/ros_workspace/install/config_utilities_ros/share/config_utilities_ros/package.xml

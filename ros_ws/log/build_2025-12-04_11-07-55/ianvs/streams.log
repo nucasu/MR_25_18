@@ -1,0 +1,30 @@
+[0.155s] Invoking command in '/root/ros_workspace/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/ianvs
+[0.200s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.817s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.844s] -- Found message_filters: 4.11.8 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.924s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.945s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.258s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.274s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.840s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.888s] -- Found rosbag2_transport: 0.26.9 (/opt/ros/jazzy/share/rosbag2_transport/cmake)
+[1.948s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.048s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.152s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.212s] -- Found tf2_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.359s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.708s] -- Found pybind11: /usr/include (found version "2.11.1")
+[3.223s] -- Configuring done (3.0s)
+[3.440s] -- Generating done (0.2s)
+[3.482s] -- Build files have been written to: /root/ros_workspace/build/ianvs
+[3.525s] Invoked command in '/root/ros_workspace/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/ianvs
+[3.541s] Invoking command in '/root/ros_workspace/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/ianvs -- -j8 -l8
+[3.938s] [ 34%] Built target ianvs
+[4.013s] failed to create symbolic link '/root/ros_workspace/build/ianvs/ament_cmake_python/ianvs/ianvs' because existing path cannot be removed: Is a directory
+[4.021s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ianvs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ianvs] Error 1
+[4.022s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/ament_cmake_python_symlink_ianvs.dir/all] Error 2
+[4.022s] gmake: *** [Makefile:146: all] Error 2
+[4.046s] Invoked command in '/root/ros_workspace/build/ianvs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/ianvs -- -j8 -l8

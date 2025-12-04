@@ -1,0 +1,52 @@
+[0.092s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_navigation2
+[4.293s] -- The C compiler identification is GNU 13.3.0
+[4.293s] -- The CXX compiler identification is GNU 13.3.0
+[4.294s] -- Detecting C compiler ABI info
+[4.294s] -- Detecting C compiler ABI info - done
+[4.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.295s] -- Detecting C compile features
+[4.295s] -- Detecting C compile features - done
+[4.296s] -- Detecting CXX compiler ABI info
+[4.297s] -- Detecting CXX compiler ABI info - done
+[4.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.299s] -- Detecting CXX compile features
+[4.300s] -- Detecting CXX compile features - done
+[4.300s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.300s] -- Configuring done (4.0s)
+[4.300s] -- Generating done (0.0s)
+[4.301s] -- Build files have been written to: /root/ros_workspace/build/turtlebot3_navigation2
+[4.302s] Invoked command in '/root/ros_workspace/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/turtlebot3_navigation2
+[4.303s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_navigation2 -- -j8 -l8
+[4.635s] Invoked command in '/root/ros_workspace/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_navigation2 -- -j8 -l8
+[4.638s] Invoking command in '/root/ros_workspace/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_navigation2
+[4.741s] -- Install configuration: ""
+[4.742s] -- Execute custom install script
+[4.742s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[4.742s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[4.742s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[4.801s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[4.843s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[4.905s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[4.984s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[5.059s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[5.120s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[5.162s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[5.212s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[5.306s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[5.423s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[5.523s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[5.628s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[5.712s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[5.794s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[5.900s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[5.965s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[6.064s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[6.164s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[6.269s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[6.332s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[6.413s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[6.509s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[6.590s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[6.677s] -- Symlinking: /root/ros_workspace/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml

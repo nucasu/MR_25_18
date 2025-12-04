@@ -1,0 +1,21 @@
+[0.075s] Invoking command in '/root/ros_workspace/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8
+[0.678s] -- Configuring incomplete, errors occurred!
+[0.680s] [31mCMake Error at CMakeLists.txt:35 (find_package):
+[0.680s]   By not providing "Findnlohmann_json.cmake" in CMAKE_MODULE_PATH this
+[0.681s]   project has asked CMake to find a package configuration file provided by
+[0.681s]   "nlohmann_json", but CMake did not find one.
+[0.681s] 
+[0.682s]   Could not find a package configuration file provided by "nlohmann_json"
+[0.683s]   with any of the following names:
+[0.683s] 
+[0.683s]     nlohmann_jsonConfig.cmake
+[0.683s]     nlohmann_json-config.cmake
+[0.683s] 
+[0.683s]   Add the installation prefix of "nlohmann_json" to CMAKE_PREFIX_PATH or set
+[0.683s]   "nlohmann_json_DIR" to a directory containing one of the above files.  If
+[0.683s]   "nlohmann_json" provides a separate development package or SDK, be sure it
+[0.683s]   has been installed.
+[0.683s] 
+[0.684s] [0m
+[0.684s] gmake: *** [Makefile:1483: cmake_check_build_system] Error 1
+[0.685s] Invoked command in '/root/ros_workspace/build/spark_dsg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8

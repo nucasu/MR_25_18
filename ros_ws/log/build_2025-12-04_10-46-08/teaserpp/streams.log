@@ -1,0 +1,89 @@
+[0.035s] Invoking command in '/root/ros_workspace/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/teaser_plusplus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/teaserpp
+[12.531s] -- The C compiler identification is GNU 13.3.0
+[12.531s] -- The CXX compiler identification is GNU 13.3.0
+[12.532s] -- Detecting C compiler ABI info
+[12.532s] -- Detecting C compiler ABI info - done
+[12.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.532s] -- Detecting C compile features
+[12.532s] -- Detecting C compile features - done
+[12.532s] -- Detecting CXX compiler ABI info
+[12.532s] -- Detecting CXX compiler ABI info - done
+[12.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.533s] -- Detecting CXX compile features
+[12.533s] -- Detecting CXX compile features - done
+[12.533s] -- Enable printing of diagnostic messages.
+[12.533s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[12.533s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[12.533s] -- Found OpenMP: TRUE (found version "4.5")  
+[43.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[43.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[43.929s] -- Found Threads: TRUE  
+[44.886s] -- Failed to find sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+[44.889s] -- Configuring done (44.8s)
+[45.175s] -- Generating done (0.3s)
+[45.237s] -- Build files have been written to: /root/ros_workspace/build/teaserpp
+[45.266s] Invoked command in '/root/ros_workspace/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/teaser_plusplus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/teaserpp
+[45.267s] Invoking command in '/root/ros_workspace/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/teaserpp -- -j8 -l8
+[62.490s] [  2%] [32mBuilding CXX object teaser/CMakeFiles/teaser_io.dir/src/ply_io.cc.o[0m
+[62.491s] [  5%] [32m[1mLinking CXX shared library libteaser_io.so[0m
+[62.491s] [  5%] Built target teaser_io
+[62.492s] [  8%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[79.601s] [ 11%] [32m[1mLinking CXX shared library ../../../lib/libgtest.so[0m
+[80.048s] [ 11%] Built target gtest
+[80.130s] [ 14%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o[0m
+[82.155s] [ 17%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o[0m
+[87.046s] [ 20%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o[0m
+[90.391s] [ 22%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o[0m
+[91.742s] [ 25%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o[0m
+[92.844s] [ 28%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o[0m
+[95.656s] [ 31%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o[0m
+[98.765s] [ 34%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o[0m
+[100.733s] [ 37%] [32m[1mLinking CXX static library libpmc.a[0m
+[100.912s] [ 37%] Built target pmc
+[100.985s] [ 40%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[108.849s] [ 42%] [32m[1mLinking CXX shared library ../../../lib/libgmock.so[0m
+[109.196s] [ 42%] Built target gmock
+[109.273s] [ 45%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/certification.cc.o[0m
+[167.112s] [ 48%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/graph.cc.o[0m
+[169.800s] [ 51%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/registration.cc.o[0m
+[196.530s] [ 54%] [32m[1mLinking CXX shared library libteaser_registration.so[0m
+[196.937s] [ 54%] Built target teaser_registration
+[197.032s] [ 57%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/main.cc.o[0m
+[199.954s] [ 60%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/rotation-solver-test.cc.o[0m
+[202.066s] [ 62%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/translation-solver-test.cc.o[0m
+[204.140s] [ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/scale-solver-test.cc.o[0m
+[222.462s] [ 68%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/graph-test.cc.o[0m
+[233.314s] [ 71%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/certification-test.cc.o[0m
+[250.733s] [ 74%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/linalg-test.cc.o[0m
+[286.598s] [ 77%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/registration-test.cc.o[0m
+[301.192s] [ 80%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/tls-test.cc.o[0m
+[308.174s] [ 82%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/geometry-test.cc.o[0m
+[313.535s] [ 85%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/io-test.cc.o[0m
+[317.005s] [ 88%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/utils-test.cc.o[0m
+[332.682s] [ 91%] [32m[1mLinking CXX executable all_tests[0m
+[333.091s] [ 91%] Built target all_tests
+[333.174s] [ 94%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/main.cc.o[0m
+[335.901s] [ 97%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/registration-benchmark.cc.o[0m
+[352.622s] [100%] [32m[1mLinking CXX executable all_benchmarks[0m
+[353.206s] [100%] Built target all_benchmarks
+[353.430s] Invoked command in '/root/ros_workspace/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/teaserpp -- -j8 -l8
+[353.431s] Invoking command in '/root/ros_workspace/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/teaserpp
+[353.823s] -- Install configuration: "Release"
+[353.823s] -- Installing: /root/ros_workspace/install/teaserpp/lib/libteaser_io.so
+[353.823s] -- Installing: /root/ros_workspace/install/teaserpp/lib/libteaser_registration.so
+[353.823s] -- Installing: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppTargets.cmake
+[353.823s] -- Installing: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppTargets-release.cmake
+[353.823s] -- Installing: /root/ros_workspace/install/teaserpp/include
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/matcher.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/fpfh.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/geometry.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/ply_io.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/linalg.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/utils.h
+[353.824s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/certification.h
+[353.825s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/registration.h
+[353.825s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/graph.h
+[353.825s] -- Installing: /root/ros_workspace/install/teaserpp/include/teaser/macros.h
+[353.825s] -- Installing: /root/ros_workspace/install/teaserpp/lib/cmake/teaserpp/teaserppConfig.cmake
+[354.033s] Invoked command in '/root/ros_workspace/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/teaserpp

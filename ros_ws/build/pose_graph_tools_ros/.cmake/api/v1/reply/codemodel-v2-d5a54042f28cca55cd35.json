@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f7c2a8f5313c70e44599.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pose_graph_tools_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_tools_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_tools_ros-Release-6244128ddd15c9f26624.json",
+					"name" : "pose_graph_tools_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_graph_tools_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_graph_tools_ros_uninstall-Release-5c7f0eb8e0e5ba786fb7.json",
+					"name" : "pose_graph_tools_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8b1ecfa7d8ee9d79756c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-visualizer_node-Release-a817ec21a235c672ed8b.json",
+					"name" : "visualizer_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_workspace/build/pose_graph_tools_ros",
+		"source" : "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

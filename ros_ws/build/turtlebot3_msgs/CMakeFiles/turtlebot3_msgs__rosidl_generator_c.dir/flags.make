@@ -6,5 +6,5 @@ C_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_turtlebot3_msgs -DROS_PACKAGE_NAME
 
 C_INCLUDES = -I/root/ros_workspace/build/turtlebot3_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/geometry_msgs
 
-C_FLAGS = -std=gnu11 -fPIC -Wall
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fPIC -Wall
 

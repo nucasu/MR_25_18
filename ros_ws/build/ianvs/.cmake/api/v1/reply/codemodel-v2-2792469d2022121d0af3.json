@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b0aa3b79bbfd9c130bf7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ianvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_ianvs_bindings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_ianvs_bindings-Release-62e8de0938aed8e0104d.json",
+					"name" : "_ianvs_bindings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ianvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ianvs_egg-Release-e160036a7d976bbc6dc6.json",
+					"name" : "ament_cmake_python_build_ianvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ianvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ianvs-Release-34a6d638d8ece922fc8b.json",
+					"name" : "ament_cmake_python_symlink_ianvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ianvs_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ianvs_setup-Release-70266a494cf285a679e1.json",
+					"name" : "ament_cmake_python_symlink_ianvs_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ianvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ianvs-Release-eb036d2be34a463dc700.json",
+					"name" : "ianvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ianvs_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ianvs_plugins-Release-850048ebc99deb65e2b0.json",
+					"name" : "ianvs_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ianvs_rosbag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ianvs_rosbag-Release-2bf9aab867708cc483be.json",
+					"name" : "ianvs_rosbag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ianvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ianvs_uninstall-Release-24a583ed48e5fe037693.json",
+					"name" : "ianvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "merge_rosbags::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-merge_rosbags-Release-74fd5df5c9068ecbc155.json",
+					"name" : "merge_rosbags",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_rosbag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_rosbag-Release-0867600cf06ac2d552bb.json",
+					"name" : "play_rosbag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transform_file_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transform_file_broadcaster-Release-7060e37b94fa78aa0439.json",
+					"name" : "transform_file_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-ac61a2b76825db1dfbc2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_workspace/build/ianvs",
+		"source" : "/root/ros_workspace/src/ianvs/ianvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

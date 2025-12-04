@@ -9,8 +9,12 @@ setup.py
 ../../build/turtlebot3_control/turtlebot3_control.egg-info/top_level.txt
 ../../build/turtlebot3_control/turtlebot3_control.egg-info/zip-safe
 resource/turtlebot3_control
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 turtlebot3_control/__init__.py
 turtlebot3_control/waypoint_controller.py
+turtlebot3_control.egg-info/PKG-INFO
+turtlebot3_control.egg-info/SOURCES.txt
+turtlebot3_control.egg-info/dependency_links.txt
+turtlebot3_control.egg-info/entry_points.txt
+turtlebot3_control.egg-info/requires.txt
+turtlebot3_control.egg-info/top_level.txt
+turtlebot3_control.egg-info/zip-safe

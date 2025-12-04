@@ -1,0 +1,25 @@
+[0.105s] Invoking command in '/root/ros_workspace/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/turtlebot3_control:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_cartographer -- -j8 -l8
+[1.076s] Invoked command in '/root/ros_workspace/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/turtlebot3_control:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_cartographer -- -j8 -l8
+[1.077s] Invoking command in '/root/ros_workspace/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/turtlebot3_control:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_cartographer
+[1.207s] -- Install configuration: ""
+[1.207s] -- Execute custom install script
+[1.207s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.208s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.208s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.209s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.210s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.211s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.211s] -- Symlinking: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.275s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.275s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.275s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.278s] -- Up-to-date symlink: /root/ros_workspace/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.427s] Invoked command in '/root/ros_workspace/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/turtlebot3_teleop:/root/ros_workspace/install/turtlebot3_example:/root/ros_workspace/install/turtlebot3_control:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_cartographer

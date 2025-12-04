@@ -21,15 +21,48 @@ class WaypointController(Node):
         self.y = 0.0
         self.theta = 0.0
  
-        # Waypoints: (x, y, theta_d)
+        # Waypoints: (x, y)
         self.waypoints = [
-            (1.0, 0.0, 0.0),
-            (1.5, 0.0, 0.0)
+            #(6.0, 0.0),
+
+            # STANZA 1
+            #(6.0, -1.5),
+            #(5.5, -3.5),
+            #(6.5, -4.5),
+            #(7.0, -2.5),
+            #(6.0, -0.5),
+
+            #(7.0, 2.5),
+            #(6.0, 3.5),
+
+            # STANZA 2
+            #(1.0, 4.0),
+            #(0.5, 2.5),
+            #(1.0, 1.5),
+            #(2.0, 4.0),
+
+            #(3.0, 4.0),
+            #(3.0, 0.0),
+
+            (-1.0, 1.0),
+            (-1.0, 3.5),
+            #(-4.5, 3.0),
+
+            #STANZA 3
+            (-6.5, 3.0),
+            (-6.5, -3.5),
+            (-6.5, 2.5),
+            #(-6.0, -1.0),
+            #(-6.0, +3.0),
+
+            (-4.5, +2.0),
+            (-3.0, 0.0),
+            (0.0, 0.0)
         ]
         self.index = 0
  
-        # Guadagni (puoi regolarli)
-        self.k1 = 0.5   # velocità lineare
+        # Guadagni
+        self.k1 = 0.8   # velocità lineare
         self.k2 = 1.5   # velocità angolare
  
         # Timer di controllo (20 Hz)
@@ -47,14 +80,14 @@ class WaypointController(Node):
         self.theta = math.atan2(siny_cosp, cosy_cosp)
  
     def control_loop(self):
-        """Loop principale per raggiungere il waypoint corrente."""
+        
         if self.index >= len(self.waypoints):
             # Tutti i waypoint completati, ferma il robot
             stop_msg = Twist()
             self.cmd_pub.publish(stop_msg)
             return
  
-        x_d, y_d, _ = self.waypoints[self.index]
+        x_d, y_d = self.waypoints[self.index]
  
         # --- ERRORE NEL FRAME DEL ROBOT ---
         dx = x_d - self.x
@@ -70,13 +103,13 @@ class WaypointController(Node):
             self.get_logger().info(f"Waypoint {self.index + 1} raggiunto!")
             self.index += 1
             return
- 
+
         # --- CARTESIAN REGULATOR ---
         v = self.k1 * ex
         w = self.k2 * math.atan2(ey, ex)
- 
+
         # Saturazioni
-        v = max(min(v, 0.3), -0.3)
+        v = max(min(v, 0.8), -0.8)
         w = max(min(w, 1.0), -1.0)
  
         # Pubblica comandi

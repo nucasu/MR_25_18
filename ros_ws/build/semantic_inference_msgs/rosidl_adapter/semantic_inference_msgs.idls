@@ -1,0 +1,5 @@
+/root/ros_workspace/build/semantic_inference_msgs/rosidl_adapter/semantic_inference_msgs:msg/FeatureVector.idl
+/root/ros_workspace/build/semantic_inference_msgs/rosidl_adapter/semantic_inference_msgs:msg/FeatureVectors.idl
+/root/ros_workspace/build/semantic_inference_msgs/rosidl_adapter/semantic_inference_msgs:msg/FeatureVectorStamped.idl
+/root/ros_workspace/build/semantic_inference_msgs/rosidl_adapter/semantic_inference_msgs:msg/FeatureImage.idl
+/root/ros_workspace/build/semantic_inference_msgs/rosidl_adapter/semantic_inference_msgs:srv/EncodeFeature.idl

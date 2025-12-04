@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-74f4a692862d35b2fbe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "config_utilities_msgs__py",
+					"jsonFile" : "directory-config_utilities_msgs__py-Release-91e3e6e7022cf0640510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros_workspace/build/config_utilities_msgs/config_utilities_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "config_utilities_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_config_utilities_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_config_utilities_msgs_egg-Release-7e3406fdea1869387d10.json",
+					"name" : "ament_cmake_python_build_config_utilities_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_config_utilities_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_config_utilities_msgs-Release-7fc34630ee620cda116b.json",
+					"name" : "ament_cmake_python_symlink_config_utilities_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs-Release-73c4d9955f605a763f07.json",
+					"name" : "config_utilities_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__cpp-Release-6fcb794ab9e27963255d.json",
+					"name" : "config_utilities_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "config_utilities_msgs__py::@60755c6f962ce819a1c0",
+					"jsonFile" : "target-config_utilities_msgs__py-Release-db764ee4528b88f2ebb5.json",
+					"name" : "config_utilities_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_generator_c-Release-79301366dd71d1d0e811.json",
+					"name" : "config_utilities_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_generator_py-Release-7bcc3745868759166db0.json",
+					"name" : "config_utilities_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_generator_type_description-Release-45ea44a94fab0b0a227e.json",
+					"name" : "config_utilities_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_c-Release-64cc4016206098d257a7.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_cpp-Release-d48a593ab163f2eec9b8.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_fastrtps_c-Release-d35ff665e97582abaee0.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_fastrtps_cpp-Release-1311aa602c5988efd809.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_introspection_c-Release-8e2168b3e1e96ca9f2da.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs__rosidl_typesupport_introspection_cpp-Release-ef121691b3b507647559.json",
+					"name" : "config_utilities_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs_s__rosidl_typesupport_c-Release-8af57b058365c680618d.json",
+					"name" : "config_utilities_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs_s__rosidl_typesupport_fastrtps_c-Release-cf72aadd4ca370e2ea34.json",
+					"name" : "config_utilities_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs_s__rosidl_typesupport_introspection_c-Release-bc4174b9685e6b95c904.json",
+					"name" : "config_utilities_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_msgs_uninstall-Release-6dc629d30f3694bbcb9a.json",
+					"name" : "config_utilities_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6ad79405a1a9212e2857.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros_workspace/build/config_utilities_msgs",
+		"source" : "/root/ros_workspace/src/config_utilities/config_utilities_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

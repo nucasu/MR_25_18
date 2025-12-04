@@ -1,0 +1,27 @@
+[0.090s] Invoking command in '/root/ros_workspace/build/config_utilities_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/config_utilities/config_utilities_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/config_utilities_msgs
+[0.494s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.751s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.819s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.858s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.112s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.905s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.756s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.759s] -- Configuring done (3.5s)
+[4.028s] -- Generating done (0.2s)
+[4.065s] -- Build files have been written to: /root/ros_workspace/build/config_utilities_msgs
+[4.118s] Invoked command in '/root/ros_workspace/build/config_utilities_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/config_utilities/config_utilities_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/config_utilities_msgs
+[4.120s] Invoking command in '/root/ros_workspace/build/config_utilities_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/config_utilities_msgs -- -j8 -l8
+[4.330s] [  2%] Built target config_utilities_msgs__rosidl_generator_type_description
+[4.423s] failed to create symbolic link '/root/ros_workspace/build/config_utilities_msgs/ament_cmake_python/config_utilities_msgs/config_utilities_msgs' because existing path cannot be removed: Is a directory
+[4.429s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_config_utilities_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_config_utilities_msgs] Error 1
+[4.429s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_config_utilities_msgs.dir/all] Error 2
+[4.431s] gmake: *** [Makefile:146: all] Error 2
+[4.462s] Invoked command in '/root/ros_workspace/build/config_utilities_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/config_utilities_msgs -- -j8 -l8

@@ -1,0 +1,17 @@
+[2.866s] Invoking command in '/root/ros_workspace/build/turtlebot3_teleop': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build --no-deps symlink_data
+[3.809s] running develop
+[4.251s] running egg_info
+[4.289s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[4.290s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[4.292s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[4.293s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[4.294s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[4.383s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.385s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.423s] running build_ext
+[4.423s] Creating /root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[4.424s] Installing teleop_keyboard script to /root/ros_workspace/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[4.424s] 
+[4.424s] Installed /root/ros_workspace/build/turtlebot3_teleop
+[4.430s] running symlink_data
+[4.961s] Invoked command in '/root/ros_workspace/build/turtlebot3_teleop' returned '0': PYTHONPATH=/root/ros_workspace/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_teleop/build --no-deps symlink_data

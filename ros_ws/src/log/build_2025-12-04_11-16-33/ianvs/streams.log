@@ -1,0 +1,143 @@
+[0.063s] Invoking command in '/root/ros_workspace/src/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/ianvs
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.425s] -- Detecting CXX compiler ABI info
+[0.719s] -- Detecting CXX compiler ABI info - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.734s] -- Detecting CXX compile features
+[0.736s] -- Detecting CXX compile features - done
+[0.738s] -- Setting build type to 'Release' as none was specified.
+[0.751s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.137s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.270s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.433s] -- Found message_filters: 4.11.8 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.570s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.611s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.655s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.892s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.903s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.279s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.337s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.859s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[2.980s] -- Found rosbag2_transport: 0.26.9 (/opt/ros/jazzy/share/rosbag2_transport/cmake)
+[3.202s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.408s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.572s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[3.651s] -- Found tf2_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[3.872s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[5.535s] -- Found Python: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+[5.821s] -- Found pybind11: /usr/include (found version "2.11.1")
+[6.842s] -- Configuring done (6.8s)
+[7.292s] -- Generating done (0.4s)
+[7.343s] -- Build files have been written to: /root/ros_workspace/src/build/ianvs
+[7.400s] Invoked command in '/root/ros_workspace/src/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/ianvs/ianvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/ianvs
+[7.403s] Invoking command in '/root/ros_workspace/src/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/ianvs -- -j8 -l8
+[7.955s] [  4%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_publisher.cpp.o[0m
+[7.979s] [  8%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_subscription.cpp.o[0m
+[7.980s] [ 13%] [32mBuilding CXX object CMakeFiles/ianvs_rosbag.dir/src/bag_reader.cpp.o[0m
+[7.984s] [ 17%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/detail/string_transforms.cpp.o[0m
+[8.017s] [ 21%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/image_encodings.cpp.o[0m
+[8.021s] [ 21%] Built target ament_cmake_python_symlink_ianvs_setup
+[8.061s] [ 21%] Built target ament_cmake_python_symlink_ianvs
+[8.068s] [ 26%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle.cpp.o[0m
+[8.098s] [ 30%] [32mBuilding CXX object CMakeFiles/transform_file_broadcaster.dir/app/transform_file_broadcaster.cpp.o[0m
+[8.152s] [ 34%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle_factory.cpp.o[0m
+[24.388s] [ 39%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_init.cpp.o[0m
+[26.879s] [ 43%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/spin_functions.cpp.o[0m
+[32.724s] [ 47%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/module.cpp.o[0m
+[36.627s] running egg_info
+[36.638s] creating ianvs.egg-info
+[36.821s] writing ianvs.egg-info/PKG-INFO
+[36.826s] writing dependency_links to ianvs.egg-info/dependency_links.txt
+[36.826s] writing entry points to ianvs.egg-info/entry_points.txt
+[36.826s] writing top-level names to ianvs.egg-info/top_level.txt
+[36.827s] writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[37.287s] reading manifest file 'ianvs.egg-info/SOURCES.txt'
+[37.287s] writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[37.710s] [ 47%] Built target ament_cmake_python_build_ianvs_egg
+[43.017s] [ 52%] [32m[1mLinking CXX shared library libianvs_rosbag.so[0m
+[43.038s] [ 56%] [32m[1mLinking CXX executable transform_file_broadcaster[0m
+[44.959s] [ 60%] [32m[1mLinking CXX shared module _ianvs_bindings.cpython-312-x86_64-linux-gnu.so[0m
+[45.888s] [ 60%] Built target ianvs_rosbag
+[50.929s] [ 60%] Built target transform_file_broadcaster
+[52.123s] [ 65%] [32m[1mLinking CXX shared library libianvs.so[0m
+[52.296s] [ 65%] Built target _ianvs_bindings
+[57.113s] [ 65%] Built target ianvs
+[57.171s] [ 69%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/signal_stop_plugin.cpp.o[0m
+[71.340s] [ 73%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/tf_plugin.cpp.o[0m
+[71.349s] [ 78%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/topic_remap_plugin.cpp.o[0m
+[98.128s] [ 82%] [32m[1mLinking CXX shared library libianvs_plugins.so[0m
+[108.335s] [ 82%] Built target ianvs_plugins
+[108.423s] [ 86%] [32mBuilding CXX object CMakeFiles/merge_rosbags.dir/app/merge_rosbags.cpp.o[0m
+[130.136s] [ 91%] [32m[1mLinking CXX executable merge_rosbags[0m
+[138.250s] [ 91%] Built target merge_rosbags
+[138.325s] [ 95%] [32mBuilding CXX object CMakeFiles/play_rosbag.dir/app/play_rosbag.cpp.o[0m
+[158.786s] [100%] [32m[1mLinking CXX executable play_rosbag[0m
+[164.456s] [100%] Built target play_rosbag
+[164.487s] Invoked command in '/root/ros_workspace/src/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/ianvs -- -j8 -l8
+[164.489s] Invoking command in '/root/ros_workspace/src/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/ianvs
+[164.511s] -- Install configuration: "Release"
+[164.511s] -- Execute custom install script
+[164.517s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/app/rosbag_play_plugins.h
+[164.540s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/bag_reader.h
+[164.573s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/bindings/image_encodings.h
+[164.598s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/detail/string_transforms.h
+[164.624s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/image_publisher.h
+[164.651s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/image_subscription.h
+[164.686s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/lazy_publisher_group.h
+[164.709s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/message_wait_functor.h
+[164.734s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/node_handle.h
+[164.760s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/node_handle_factory.h
+[164.787s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/node_init.h
+[164.813s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/spin_functions.h
+[164.837s] -- Symlinking: /root/ros_workspace/src/install/ianvs/include/ianvs//ianvs/visibility_control.h
+[164.865s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-x86_64-linux-gnu.so
+[164.896s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/pythonpath.sh
+[164.922s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/pythonpath.dsv
+[164.948s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/PKG-INFO
+[164.973s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[164.999s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[165.024s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/entry_points.txt
+[165.053s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/top_level.txt
+[165.085s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py
+[165.111s] -- Symlinking: /root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py
+[165.139s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs//plugins.xml
+[165.171s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/library_path.sh
+[165.198s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/library_path.dsv
+[165.230s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ament_index/resource_index/package_run_dependencies/ianvs
+[165.260s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ament_index/resource_index/parent_prefix_path/ianvs
+[165.287s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/ament_prefix_path.sh
+[165.312s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/ament_prefix_path.dsv
+[165.337s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/path.sh
+[165.366s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/environment/path.dsv
+[165.394s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/local_setup.bash
+[165.433s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/local_setup.sh
+[165.495s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/local_setup.zsh
+[165.546s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/local_setup.dsv
+[165.580s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/package.dsv
+[165.616s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ament_index/resource_index/packages/ianvs
+[165.644s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ament_index/resource_index/ianvs__pluginlib__plugin/ianvs
+[165.700s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ament_cmake_export_targets-extras.cmake
+[165.737s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.779s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvsConfig.cmake
+[165.825s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvsConfig-version.cmake
+[165.913s] -- Symlinking: /root/ros_workspace/src/install/ianvs/share/ianvs/package.xml
+[166.008s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/libianvs.so
+[166.010s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/libianvs.so" to ""
+[166.011s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/libianvs_plugins.so
+[166.015s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/libianvs_plugins.so" to ""
+[166.016s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/libianvs_rosbag.so
+[166.020s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/libianvs_rosbag.so" to ""
+[166.024s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/ianvs/play_rosbag
+[166.026s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/ianvs/play_rosbag" to ""
+[166.027s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/ianvs/merge_rosbags
+[166.030s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/ianvs/merge_rosbags" to ""
+[166.031s] -- Installing: /root/ros_workspace/src/install/ianvs/lib/ianvs/transform_file_broadcaster
+[166.035s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/src/install/ianvs/lib/ianvs/transform_file_broadcaster" to ""
+[166.189s] Listing '/root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs'...
+[166.190s] Compiling '/root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py'...
+[166.190s] Compiling '/root/ros_workspace/src/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py'...
+[166.248s] -- Installing: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
+[166.249s] -- Installing: /root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake
+[166.261s] Invoked command in '/root/ros_workspace/src/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/ianvs

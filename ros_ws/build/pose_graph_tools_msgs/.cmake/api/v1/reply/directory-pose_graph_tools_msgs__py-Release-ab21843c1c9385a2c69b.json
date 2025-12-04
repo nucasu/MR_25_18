@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pose_graph_tools_msgs__py",
+		"source" : "/root/ros_workspace/build/pose_graph_tools_msgs/pose_graph_tools_msgs__py"
+	}
+}

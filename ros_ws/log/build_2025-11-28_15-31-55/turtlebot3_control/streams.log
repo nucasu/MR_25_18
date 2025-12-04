@@ -1,0 +1,23 @@
+[3.137s] Invoking command in '/root/ros_workspace/build/turtlebot3_control': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build --no-deps symlink_data --force
+[4.924s] running develop
+[6.487s] running egg_info
+[6.500s] creating turtlebot3_control.egg-info
+[6.670s] writing turtlebot3_control.egg-info/PKG-INFO
+[6.670s] writing dependency_links to turtlebot3_control.egg-info/dependency_links.txt
+[6.671s] writing entry points to turtlebot3_control.egg-info/entry_points.txt
+[6.671s] writing requirements to turtlebot3_control.egg-info/requires.txt
+[6.672s] writing top-level names to turtlebot3_control.egg-info/top_level.txt
+[6.672s] writing manifest file 'turtlebot3_control.egg-info/SOURCES.txt'
+[6.948s] reading manifest file 'turtlebot3_control.egg-info/SOURCES.txt'
+[6.948s] writing manifest file 'turtlebot3_control.egg-info/SOURCES.txt'
+[7.041s] running build_ext
+[7.051s] Creating /root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages/turtlebot3-control.egg-link (link to .)
+[7.052s] Installing waypoint_controller script to /root/ros_workspace/install/turtlebot3_control/lib/turtlebot3_control
+[7.070s] 
+[7.072s] Installed /root/ros_workspace/build/turtlebot3_control
+[7.072s] running symlink_data
+[7.072s] creating /root/ros_workspace/install/turtlebot3_control/share/ament_index
+[7.072s] creating /root/ros_workspace/install/turtlebot3_control/share/ament_index/resource_index
+[7.072s] creating /root/ros_workspace/install/turtlebot3_control/share/ament_index/resource_index/packages
+[7.074s] error: [Errno 2] No such file or directory: '/root/ros_workspace/install/turtlebot3_control/share/ament_index/resource_index/packages/turtlebot3_control'
+[7.484s] Invoked command in '/root/ros_workspace/build/turtlebot3_control' returned '1': PYTHONPATH=/root/ros_workspace/build/turtlebot3_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/turtlebot3_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_workspace/build/turtlebot3_control/build --no-deps symlink_data --force

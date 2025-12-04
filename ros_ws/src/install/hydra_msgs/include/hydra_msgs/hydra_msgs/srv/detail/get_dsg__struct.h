@@ -1,0 +1,1 @@
+/root/ros_workspace/src/build/hydra_msgs/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__struct.h

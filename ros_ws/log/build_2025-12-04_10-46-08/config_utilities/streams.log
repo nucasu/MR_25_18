@@ -1,0 +1,182 @@
+[0.188s] Invoking command in '/root/ros_workspace/build/config_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/config_utilities/config_utilities -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/config_utilities
+[0.755s] -- The C compiler identification is GNU 13.3.0
+[1.186s] -- The CXX compiler identification is GNU 13.3.0
+[1.234s] -- Detecting C compiler ABI info
+[1.554s] -- Detecting C compiler ABI info - done
+[1.573s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.573s] -- Detecting C compile features
+[1.583s] -- Detecting C compile features - done
+[1.604s] -- Detecting CXX compiler ABI info
+[1.927s] -- Detecting CXX compiler ABI info - done
+[1.960s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.960s] -- Detecting CXX compile features
+[1.960s] -- Detecting CXX compile features - done
+[3.279s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+[4.602s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.502s] -- Configuring done (5.2s)
+[5.955s] -- Generating done (0.4s)
+[5.988s] -- Build files have been written to: /root/ros_workspace/build/config_utilities
+[6.019s] Invoked command in '/root/ros_workspace/build/config_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/config_utilities/config_utilities -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/config_utilities
+[6.019s] Invoking command in '/root/ros_workspace/build/config_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/config_utilities -- -j8 -l8
+[6.295s] [  1%] [34m[1mCopy test resources to build directory[0m
+[6.328s] [  2%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/asl_formatter.cpp.o[0m
+[6.330s] [  4%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/external_registry.cpp.o[0m
+[6.342s] [  5%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/commandline.cpp.o[0m
+[6.349s] [  7%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/context.cpp.o[0m
+[6.379s] [  8%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/config_context.cpp.o[0m
+[6.379s] [ 10%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/dynamic_config.cpp.o[0m
+[6.389s] [ 11%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/conversions.cpp.o[0m
+[6.933s] [ 13%] [34m[1mTarget for test resources[0m
+[7.071s] [ 13%] Built target copy_test_resources
+[7.208s] [ 14%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/factory.cpp.o[0m
+[18.343s] [ 15%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/formatter.cpp.o[0m
+[20.126s] [ 17%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/field_input_info.cpp.o[0m
+[58.845s] [ 18%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/path.cpp.o[0m
+[65.552s] [ 20%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/settings.cpp.o[0m
+[74.481s] [ 21%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/string_utils.cpp.o[0m
+[77.093s] [ 23%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/substitutions.cpp.o[0m
+[91.006s] [ 24%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/substitution_parsers.cpp.o[0m
+[94.076s] [ 26%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/validation.cpp.o[0m
+[97.576s] [ 27%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/visitor.cpp.o[0m
+[103.759s] [ 28%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/yaml_parser.cpp.o[0m
+[107.882s] [ 30%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/yaml_utils.cpp.o[0m
+[125.239s] [ 31%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/namespacing.cpp.o[0m
+[130.189s] [ 33%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/meta_data.cpp.o[0m
+[142.704s] [ 34%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/logger.cpp.o[0m
+[143.638s] [ 36%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/log_to_glog.cpp.o[0m
+[148.337s] [ 37%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/log_to_stdout.cpp.o[0m
+[153.241s] [ 39%] [32mBuilding CXX object CMakeFiles/config_utilities.dir/src/introspection.cpp.o[0m
+[164.884s] [ 40%] [32m[1mLinking CXX shared library libconfig_utilities.so[0m
+[165.375s] [ 40%] Built target config_utilities
+[165.482s] [ 42%] [32mBuilding CXX object CMakeFiles/composite-configs.dir/app/composite_configs.cpp.o[0m
+[172.772s] [ 43%] [32m[1mLinking CXX executable composite-configs[0m
+[173.089s] [ 43%] Built target composite-configs
+[173.187s] [ 44%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/main.cpp.o[0m
+[175.607s] [ 46%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/src/introspection_utils.cpp.o[0m
+[178.668s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/src/utils.cpp.o[0m
+[188.054s] [ 49%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/asl_formatter.cpp.o[0m
+[202.099s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/commandline.cpp.o[0m
+[217.318s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_arrays.cpp.o[0m
+[233.693s] [ 53%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_maps.cpp.o[0m
+[249.189s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/conversions.cpp.o[0m
+[259.818s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/dynamic_config.cpp.o[0m
+[278.070s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/enums.cpp.o[0m
+[283.159s] [ 59%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/external_registry.cpp.o[0m
+[284.267s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/src/default_config.cpp.o[0m
+[286.406s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/src/cli_args.cpp.o[0m
+[321.378s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/field_input_info.cpp.o[0m
+[341.124s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/inheritance.cpp.o[0m
+[359.294s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/introspection.cpp.o[0m
+[392.523s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/missing_fields.cpp.o[0m
+[402.768s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/namespacing.cpp.o[0m
+[412.638s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/path.cpp.o[0m
+[423.701s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/string_utils.cpp.o[0m
+[424.815s] [ 73%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/getters.cpp.o[0m
+[426.031s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/factory.cpp.o[0m
+[461.315s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/traits.cpp.o[0m
+[464.293s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/update.cpp.o[0m
+[468.390s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/validity_checks.cpp.o[0m
+[468.450s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/substitutions.cpp.o[0m
+[469.544s] [ 82%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/subconfigs.cpp.o[0m
+[490.989s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/yaml_utils.cpp.o[0m
+[499.205s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/yaml_parsing.cpp.o[0m
+[520.679s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities.dir/tests/virtual_config.cpp.o[0m
+[553.836s] [ 88%] [32m[1mLinking CXX executable test_config_utilities[0m
+[554.440s] [ 88%] Built target test_config_utilities
+[554.513s] [ 91%] [32mBuilding CXX object demos/CMakeFiles/demo_config.dir/demo_config.cpp.o[0m
+[554.514s] [ 91%] [32mBuilding CXX object demos/CMakeFiles/demo_factory.dir/demo_factory.cpp.o[0m
+[554.516s] [ 92%] [32mBuilding CXX object test/CMakeFiles/test_config_utilities_plugins.dir/src/external_plugins.cpp.o[0m
+[554.526s] [ 94%] [32mBuilding CXX object demos/CMakeFiles/demo_inheritance.dir/demo_inheritance.cpp.o[0m
+[563.080s] [ 95%] [32m[1mLinking CXX executable demo_inheritance[0m
+[563.420s] [ 95%] Built target demo_inheritance
+[563.971s] [ 97%] [32m[1mLinking CXX shared library libtest_config_utilities_plugins.so[0m
+[564.213s] [ 97%] Built target test_config_utilities_plugins
+[566.399s] [ 98%] [32m[1mLinking CXX executable demo_factory[0m
+[566.689s] [ 98%] Built target demo_factory
+[568.076s] [100%] [32m[1mLinking CXX executable demo_config[0m
+[568.312s] [100%] Built target demo_config
+[568.438s] Invoked command in '/root/ros_workspace/build/config_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/config_utilities -- -j8 -l8
+[568.443s] Invoking command in '/root/ros_workspace/build/config_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/config_utilities
+[568.470s] -- Install configuration: "Release"
+[568.474s] -- Installing: /root/ros_workspace/install/config_utilities/lib/libconfig_utilities.so
+[568.479s] -- Installing: /root/ros_workspace/install/config_utilities/bin/composite-configs
+[568.480s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/install/config_utilities/bin/composite-configs" to ""
+[568.480s] -- Up-to-date: /root/ros_workspace/install/config_utilities/bin
+[568.481s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static
+[568.483s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/js
+[568.485s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/js/display.js
+[568.486s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/js/summary_view.js
+[568.487s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/js/data.js
+[568.488s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/js/general.js
+[568.490s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/css
+[568.492s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/css/style_base.css
+[568.496s] -- Installing: /root/ros_workspace/install/config_utilities/bin/static/css/style.css
+[568.497s] -- Installing: /root/ros_workspace/install/config_utilities/bin/templates
+[568.499s] -- Installing: /root/ros_workspace/install/config_utilities/bin/templates/index.html
+[568.500s] -- Installing: /root/ros_workspace/install/config_utilities/bin/introspection_viewer.py
+[568.501s] -- Installing: /root/ros_workspace/install/config_utilities/bin/config-utilities-viewer
+[568.502s] -- Installing: /root/ros_workspace/install/config_utilities/include
+[568.503s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities
+[568.504s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/virtual_config.h
+[568.505s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/parsing
+[568.507s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/parsing/yaml.h
+[568.507s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/parsing/context.h
+[568.507s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/parsing/commandline.h
+[568.508s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/validation.h
+[568.508s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal
+[568.509s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/visitor_impl.hpp
+[568.509s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/checks.h
+[568.510s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/introspection.h
+[568.510s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/yaml_utils.h
+[568.510s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/field_input_info.h
+[568.511s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/formatter.h
+[568.511s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/yaml_parser.h
+[568.511s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/visitor.h
+[568.511s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/dynamic_config_impl.hpp
+[568.512s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/config_context.h
+[568.512s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/string_utils.h
+[568.512s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/meta_data.h
+[568.513s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/logger.h
+[568.513s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/internal/namespacing.h
+[568.513s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/config_utilities.h
+[568.514s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/settings.h
+[568.515s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/config.h
+[568.515s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/substitutions.h
+[568.515s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/types
+[568.517s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/types/conversions.h
+[568.518s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/types/path.h
+[568.518s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/types/enum.h
+[568.519s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/types/eigen_matrix.h
+[568.519s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/substitution_parsers.h
+[568.519s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/update.h
+[568.520s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/factory.h
+[568.520s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/external_registry.h
+[568.521s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/getters.h
+[568.521s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/printing.h
+[568.521s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/traits.h
+[568.522s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/formatting
+[568.524s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/formatting/asl.h
+[568.524s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/logging
+[568.525s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/logging/log_to_stdout.h
+[568.526s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/logging/log_to_glog.h
+[568.526s] -- Installing: /root/ros_workspace/install/config_utilities/include/config_utilities/dynamic_config.h
+[568.529s] -- Installing: /root/ros_workspace/install/config_utilities/lib/cmake/config_utilities/config_utilitiesTargets.cmake
+[568.531s] -- Installing: /root/ros_workspace/install/config_utilities/lib/cmake/config_utilities/config_utilitiesTargets-release.cmake
+[568.532s] -- Installing: /root/ros_workspace/install/config_utilities/lib/cmake/config_utilities/config_utilitiesConfig.cmake
+[568.533s] -- Installing: /root/ros_workspace/install/config_utilities/lib/cmake/config_utilities/config_utilitiesConfigVersion.cmake
+[568.537s] -- Installing: /root/ros_workspace/install/config_utilities/share/ament_index/resource_index/package_run_dependencies/config_utilities
+[568.539s] -- Installing: /root/ros_workspace/install/config_utilities/share/ament_index/resource_index/parent_prefix_path/config_utilities
+[568.542s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/environment/ament_prefix_path.sh
+[568.543s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/environment/ament_prefix_path.dsv
+[568.544s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/environment/path.sh
+[568.544s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/environment/path.dsv
+[568.546s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/local_setup.bash
+[568.547s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/local_setup.sh
+[568.548s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/local_setup.zsh
+[568.549s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/local_setup.dsv
+[568.550s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/package.dsv
+[568.552s] -- Installing: /root/ros_workspace/install/config_utilities/share/ament_index/resource_index/packages/config_utilities
+[568.553s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/cmake/config_utilitiesConfig.cmake
+[568.554s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/cmake/config_utilitiesConfig-version.cmake
+[568.555s] -- Installing: /root/ros_workspace/install/config_utilities/share/config_utilities/package.xml
+[568.560s] Invoked command in '/root/ros_workspace/build/config_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/config_utilities

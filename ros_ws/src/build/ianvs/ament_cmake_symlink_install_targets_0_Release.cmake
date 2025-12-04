@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/src/build/ianvs/_ianvs_bindings.cpython-312-x86_64-linux-gnu.so" "TARGETS" "_ianvs_bindings" "ARCHIVE_DESTINATION" "lib/python3.12/site-packages/ianvs" "LIBRARY_DESTINATION" "lib/python3.12/site-packages/ianvs")

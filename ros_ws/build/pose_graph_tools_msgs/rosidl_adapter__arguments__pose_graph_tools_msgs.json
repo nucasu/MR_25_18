@@ -1,0 +1,21 @@
+{
+  "package_name": "pose_graph_tools_msgs",
+  "non_idl_tuples": [
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowQueries.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowQuery.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowRequests.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowVector.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/LoopClosures.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/LoopClosuresAck.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraph.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraphEdge.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraphNode.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/TimeRangeQuery.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCFrameMsg.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCFrames.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCRequests.msg",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:srv/LcdFrameRegistration.srv",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:srv/PoseGraphQuery.srv",
+    "/root/ros_workspace/src/pose_graph_tools/pose_graph_tools_msgs:srv/VLCFrameQuery.srv"
+  ]
+}

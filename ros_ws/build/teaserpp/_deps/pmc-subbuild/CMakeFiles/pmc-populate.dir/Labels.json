@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate-complete.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-build.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-configure.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-download.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-install.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-patch.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-test.rule"
+		},
+		{
+			"file" : "/root/ros_workspace/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pmc-populate"
+		],
+		"name" : "pmc-populate"
+	}
+}

@@ -1,0 +1,6 @@
+setup.py
+hydra_msgs/__init__.py
+hydra_msgs.egg-info/PKG-INFO
+hydra_msgs.egg-info/SOURCES.txt
+hydra_msgs.egg-info/dependency_links.txt
+hydra_msgs.egg-info/top_level.txt

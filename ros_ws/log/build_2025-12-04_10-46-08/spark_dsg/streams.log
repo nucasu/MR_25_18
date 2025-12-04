@@ -1,0 +1,142 @@
+[0.230s] Invoking command in '/root/ros_workspace/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/spark_dsg
+[0.710s] -- The C compiler identification is GNU 13.3.0
+[0.710s] -- The CXX compiler identification is GNU 13.3.0
+[0.747s] -- Detecting C compiler ABI info
+[1.158s] -- Detecting C compiler ABI info - done
+[1.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.179s] -- Detecting C compile features
+[1.179s] -- Detecting C compile features - done
+[1.225s] -- Detecting CXX compiler ABI info
+[1.592s] -- Detecting CXX compiler ABI info - done
+[1.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.616s] -- Detecting CXX compile features
+[1.621s] -- Detecting CXX compile features - done
+[1.650s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[1.715s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.717s] -- Checking for module 'libzmq'
+[1.798s] --   Found libzmq, version 4.3.5
+[1.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.480s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.481s] -- Found Threads: TRUE  
+[2.571s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+[2.641s] -- Configuring done (2.3s)
+[2.781s] -- Generating done (0.1s)
+[2.804s] -- Build files have been written to: /root/ros_workspace/build/spark_dsg
+[2.830s] Invoked command in '/root/ros_workspace/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/install/spark_dsg
+[2.831s] Invoking command in '/root/ros_workspace/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8
+[46.072s] [  1%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/adjacency_matrix.cpp.o[0m
+[46.072s] [  3%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_container.cpp.o[0m
+[46.073s] [  4%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/labelspace.cpp.o[0m
+[46.073s] [  6%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/layer_view.cpp.o[0m
+[46.073s] [  8%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/mesh.cpp.o[0m
+[46.879s] [  9%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/metadata.cpp.o[0m
+[55.810s] [ 11%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_attributes.cpp.o[0m
+[77.819s] [ 13%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_symbol.cpp.o[0m
+[79.005s] [ 14%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/printing.cpp.o[0m
+[82.177s] [ 16%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_layer.cpp.o[0m
+[97.361s] [ 18%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_logger.cpp.o[0m
+[103.998s] [ 19%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_node.cpp.o[0m
+[114.206s] [ 21%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_types.cpp.o[0m
+[115.371s] [ 22%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_utilities.cpp.o[0m
+[125.370s] [ 24%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/traversability_boundary.cpp.o[0m
+[140.642s] [ 26%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/zmq_interface.cpp.o[0m
+[149.976s] [ 27%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/attribute_serialization.cpp.o[0m
+[157.841s] [ 29%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_conversions.cpp.o[0m
+[169.401s] [ 31%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_serialization.cpp.o[0m
+[173.148s] [ 32%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/file_io.cpp.o[0m
+[176.486s] [ 34%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_binary_serialization.cpp.o[0m
+[194.110s] [ 36%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_json_serialization.cpp.o[0m
+[202.166s] [ 37%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/json_conversions.cpp.o[0m
+[204.274s] [ 39%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_attributes.cpp.o[0m
+[206.452s] [ 40%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/dynamic_scene_graph.cpp.o[0m
+[231.312s] [ 42%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/versioning.cpp.o[0m
+[238.859s] [ 44%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/mesh_serialization.cpp.o[0m
+[254.839s] [ 45%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/colormaps.cpp.o[0m
+[256.953s] [ 47%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/color.cpp.o[0m
+[258.849s] [ 49%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box.cpp.o[0m
+[267.755s] [ 50%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box_extraction.cpp.o[0m
+[275.177s] [ 52%] [32m[1mLinking CXX shared library libspark_dsg.so[0m
+[288.449s] [ 52%] Built target spark_dsg
+[288.525s] [ 54%] [32mBuilding CXX object examples/CMakeFiles/dsg_repeater.dir/dsg_repeater.cpp.o[0m
+[298.992s] [ 55%] [32m[1mLinking CXX executable dsg_repeater[0m
+[299.835s] [ 55%] Built target dsg_repeater
+[299.945s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_adjacency_matrix.cpp.o[0m
+[315.727s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_graph_utilities_layer.cpp.o[0m
+[333.830s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_labelspace.cpp.o[0m
+[342.901s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_mesh.cpp.o[0m
+[344.064s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_edge_container.cpp.o[0m
+[345.228s] [ 65%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_dynamic_scene_graph.cpp.o[0m
+[346.385s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_color.cpp.o[0m
+[371.018s] [ 68%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_layer.cpp.o[0m
+[385.432s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_node.cpp.o[0m
+[387.485s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_utilities.cpp.o[0m
+[388.577s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_symbol.cpp.o[0m
+[388.687s] [ 75%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_attributes.cpp.o[0m
+[389.849s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_metadata.cpp.o[0m
+[390.960s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box.cpp.o[0m
+[412.764s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_graph_serialization.cpp.o[0m
+[424.791s] [ 81%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_file_io.cpp.o[0m
+[427.827s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_json_conversions.cpp.o[0m
+[428.870s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_conversions.cpp.o[0m
+[429.903s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_serialization.cpp.o[0m
+[430.954s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_attribute_serialization.cpp.o[0m
+[432.034s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_traversability_boundary.cpp.o[0m
+[434.134s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box_extraction.cpp.o[0m
+[450.611s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_mesh_serialization.cpp.o[0m
+[450.615s] [ 95%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_zmq_interface.cpp.o[0m
+[457.267s] [ 96%] [32m[1mLinking CXX executable utest_spark_dsg[0m
+[472.567s] [ 96%] Built target utest_spark_dsg
+[472.628s] [ 98%] [32mBuilding CXX object examples/CMakeFiles/dsg_endpoint.dir/dsg_endpoint.cpp.o[0m
+[481.254s] [100%] [32m[1mLinking CXX executable dsg_endpoint[0m
+[481.835s] [100%] Built target dsg_endpoint
+[481.881s] Invoked command in '/root/ros_workspace/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8
+[481.884s] Invoking command in '/root/ros_workspace/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/spark_dsg
+[481.911s] -- Install configuration: "Release"
+[481.915s] -- Installing: /root/ros_workspace/install/spark_dsg/bin/dsg_repeater
+[481.917s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/install/spark_dsg/bin/dsg_repeater" to ""
+[481.917s] -- Installing: /root/ros_workspace/install/spark_dsg/bin/dsg_endpoint
+[481.918s] -- Set non-toolchain portion of runtime path of "/root/ros_workspace/install/spark_dsg/bin/dsg_endpoint" to ""
+[481.919s] -- Installing: /root/ros_workspace/install/spark_dsg/lib/libspark_dsg.so
+[481.925s] -- Installing: /root/ros_workspace/install/spark_dsg/include
+[481.927s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg
+[481.929s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/scene_graph_logger.h
+[481.929s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/bounding_box.h
+[481.930s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/scene_graph_utilities.h
+[481.930s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/edge_attributes.h
+[481.930s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/mesh.h
+[481.931s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/layer_view.h
+[481.931s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/logging.h
+[481.932s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/traversability_boundary.h
+[481.932s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/labelspace.h
+[481.933s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/scene_graph_layer.h
+[481.934s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/spark_dsg_fwd.h
+[481.934s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/graph_utilities.h
+[481.937s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/spark_dsg.h
+[481.937s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/color.h
+[481.938s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/metadata.h
+[481.938s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/scene_graph_types.h
+[481.939s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/scene_graph_node.h
+[481.939s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/adjacency_matrix.h
+[481.940s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h
+[481.941s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/printing.h
+[481.941s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/node_attributes.h
+[481.942s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/edge_container.h
+[481.942s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/node_symbol.h
+[481.942s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/colormaps.h
+[481.943s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/bounding_box_extraction.h
+[481.943s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/zmq_interface.h
+[481.943s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization
+[481.944s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/versioning.h
+[481.944s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/graph_binary_serialization.h
+[481.945s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/json_conversions.h
+[481.945s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/binary_serialization.h
+[481.946s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/graph_json_serialization.h
+[481.946s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/attribute_serialization.h
+[481.946s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/binary_conversions.h
+[481.947s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/file_io.h
+[481.948s] -- Installing: /root/ros_workspace/install/spark_dsg/include/spark_dsg/serialization/attribute_registry.h
+[481.951s] -- Installing: /root/ros_workspace/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets.cmake
+[481.951s] -- Installing: /root/ros_workspace/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets-release.cmake
+[481.953s] -- Installing: /root/ros_workspace/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfig.cmake
+[481.954s] -- Installing: /root/ros_workspace/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfigVersion.cmake
+[481.958s] Invoked command in '/root/ros_workspace/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/spark_dsg
