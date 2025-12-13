@@ -164,33 +164,34 @@
 
   <link name="imu_link"/>
 
-  <joint name="scan_joint" type="fixed">
+  <joint name="camera_joint" type="fixed">
+    <origin xyz="0.040 -0.000 0.110" rpy="0 0 0"/>
     <parent link="base_link"/>
-    <child link="base_scan"/>
-    <origin xyz="-0.032 0 0.172" rpy="0 0 0"/>
+    <child link="camera_link"/>
   </joint>
 
-  <link name="base_scan">
-    <visual>
-      <origin xyz="0 0 0.0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="package://turtlebot3_gazebo/models/turtlebot3_common/meshes/sensors/lds.stl" scale="0.001 0.001 0.001"/>
-      </geometry>
-      <material name="dark"/>
-    </visual>
-
+  <link name="camera_link">
     <collision>
-      <origin xyz="0.015 0 -0.0065" rpy="0 0 0"/>
+      <origin xyz="0.005 0.000 0.013" rpy="0 0 0"/>
       <geometry>
-        <cylinder length="0.0315" radius="0.055"/>
+        <box size="0.015 0.030 0.027"/>
       </geometry>
     </collision>
-
-    <inertial>
-      <mass value="0.114" />
-      <origin xyz="0 0 0" />
-      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
-    </inertial>
   </link>
 
+  <joint name="camera_rgb_joint" type="fixed">
+    <origin xyz="0.003 0.000 0.009" rpy="0 0 0"/>
+    <parent link="camera_link"/>
+    <child link="camera_rgb_frame"/>
+  </joint>
+  <link name="camera_rgb_frame"/>
+
+  <joint name="camera_rgb_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.57"/>
+    <parent link="camera_rgb_frame"/>
+    <child link="camera_rgb_optical_frame"/>
+  </joint>
+  <link name="camera_rgb_optical_frame"/>
+
 </robot>
+
