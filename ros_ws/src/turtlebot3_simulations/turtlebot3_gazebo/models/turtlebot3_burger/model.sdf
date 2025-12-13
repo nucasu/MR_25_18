@@ -94,54 +94,34 @@
       </sensor>
     </link>
 
-    <link name="base_scan">
+    <link name="camera_link">
       <inertial>
-        <pose>-0.020 0 0.161 0 0 0</pose>
+        <pose>0.076 0.0 0.093 0 0 0</pose>
         <inertia>
-          <ixx>0.0001</ixx>
+          <ixx>0.001</ixx>
           <ixy>0.000</ixy>
           <ixz>0.000</ixz>
-          <iyy>0.0001</iyy>
+          <iyy>0.001</iyy>
           <iyz>0.000</iyz>
-          <izz>0.0001</izz>
+          <izz>0.001</izz>
         </inertia>
-        <mass>0.114</mass>
+        <mass>0.035</mass>
       </inertial>
 
-      <collision name="depth_camera_collision">
-        <pose>-0.032 0 0.171 0 0 0</pose>
-        <geometry>
-          <box>
-            <size>0.04 0.04 0.02</size> <!-- piccola scatola 4x4x2 cm -->
-          </box>
-        </geometry>
-        </collision>
- 
-        <visual name="depth_camera_visual">
-        <pose>-0.032 0 0.171 0 0 0</pose>
-        <geometry>
-          <box>
-            <size>0.04 0.04 0.02</size>
-          </box>
-        </geometry>
-        <material>
-          <ambient>0.1 0.1 0.8 1.0</ambient>
-          <diffuse>0.1 0.1 0.8 1.0</diffuse>
-        </material>
-        </visual>
- 
-      <sensor name="depth_camera" type="depth">
+      <pose>0.076 0.0 0.093 0 0 0</pose>
+
+      <sensor name="camera_rgbd" type="rgbd_camera">
+        <pose>0 0 0 0 0 0</pose>
         <always_on>true</always_on>
         <update_rate>30</update_rate>
         <visualize>true</visualize>
- 
-        <!-- Questo sarà il topic di output -->
-        <topic>/camera/depth/image</topic>
-        <gz_frame_id>base_scan</gz_frame_id>
- 
+        
+        <topic>camera</topic>
+        
+        <gz_frame_id>camera_link</gz_frame_id>
+    
         <camera>
-          <horizontal_fov>1.047</horizontal_fov> <!-- ~60° -->
-          <image>
+          <horizontal_fov>1.047</horizontal_fov> <image>
             <width>640</width>
             <height>480</height>
             <format>R8G8B8</format>
@@ -151,16 +131,6 @@
             <far>5.0</far>
           </clip>
         </camera>
-
-        <plugin name="depth_camera_plugin" filename="libgazebo_ros_depth_camera.so">
-          <ros>
-            <namespace>/camera</namespace>
-            <remapping>image:=/depth/image_raw</remapping>
-            <remapping>camera_info:=/depth/camera_info</remapping>
-            <remapping>depth:=/depth/depth_registered</remapping>
-          </ros>
-        </plugin>
-
       </sensor>
     </link>
 
@@ -368,8 +338,8 @@
 
     <joint name="camera_joint" type="fixed">
       <parent>base_link</parent>
-      <child>base_scan</child>
-      <pose>-0.032 0 0.171 0 0 0</pose>
+      <child>camera_link</child>
+      <pose>0.040 -0.000 0.110 0 0 0</pose>
       <axis>
         <xyz>0 0 1</xyz>
       </axis>
@@ -407,3 +377,4 @@
 
   </model>
 </sdf>
+
