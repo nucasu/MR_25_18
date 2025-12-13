@@ -1,6 +1,0 @@
-Invoking command in '/root/ros_workspace/src/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spark_dsg -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/spark_dsg
-Invoked command in '/root/ros_workspace/src/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/spark_dsg -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/spark_dsg
-Invoking command in '/root/ros_workspace/src/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/spark_dsg -- -j8 -l8
-Invoked command in '/root/ros_workspace/src/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/spark_dsg -- -j8 -l8
-Invoking command in '/root/ros_workspace/src/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/spark_dsg
-Invoked command in '/root/ros_workspace/src/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/spark_dsg

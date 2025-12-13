@@ -1,6 +1,0 @@
-Invoking command in '/root/ros_workspace/src/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/hydra_ros/hydra_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/hydra_msgs
-Invoked command in '/root/ros_workspace/src/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros_workspace/src/hydra_ros/hydra_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_workspace/src/install/hydra_msgs
-Invoking command in '/root/ros_workspace/src/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/hydra_msgs -- -j8 -l8
-Invoked command in '/root/ros_workspace/src/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/src/build/hydra_msgs -- -j8 -l8
-Invoking command in '/root/ros_workspace/src/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/hydra_msgs
-Invoked command in '/root/ros_workspace/src/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/src/build/hydra_msgs
