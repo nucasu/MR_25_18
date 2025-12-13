@@ -63,7 +63,7 @@ class WaypointController(Node):
         self.index = 0
  
         # Guadagni
-        self.k1 = 1.0   # velocità lineare
+        self.k1 = 0.75   # velocità lineare
         self.k2 = 1.0  # velocità angolare
  
         # Timer di controllo (20 Hz)
