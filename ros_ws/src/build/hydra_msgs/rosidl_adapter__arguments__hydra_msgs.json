@@ -1,8 +1,0 @@
-{
-  "package_name": "hydra_msgs",
-  "non_idl_tuples": [
-    "/root/ros_workspace/src/hydra_ros/hydra_msgs:msg/ActiveLayer.msg",
-    "/root/ros_workspace/src/hydra_ros/hydra_msgs:msg/DsgUpdate.msg",
-    "/root/ros_workspace/src/hydra_ros/hydra_msgs:srv/GetDsg.srv"
-  ]
-}

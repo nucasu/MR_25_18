@@ -1,8 +1,0 @@
-/root/ros_workspace/src/install/ianvs/lib/libianvs.so
-/root/ros_workspace/src/install/ianvs/lib/libianvs_plugins.so
-/root/ros_workspace/src/install/ianvs/lib/libianvs_rosbag.so
-/root/ros_workspace/src/install/ianvs/lib/ianvs/play_rosbag
-/root/ros_workspace/src/install/ianvs/lib/ianvs/merge_rosbags
-/root/ros_workspace/src/install/ianvs/lib/ianvs/transform_file_broadcaster
-/root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
-/root/ros_workspace/src/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -flto=auto -fno-fat-lto-objects CMakeFiles/dsg_endpoint.dir/dsg_endpoint.cpp.o -o dsg_endpoint  -Wl,-rpath,/root/ros_workspace/src/build/spark_dsg: ../libspark_dsg.so 
