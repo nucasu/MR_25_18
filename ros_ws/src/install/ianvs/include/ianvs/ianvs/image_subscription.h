@@ -1,1 +1,0 @@
-/root/ros_workspace/src/ianvs/ianvs/include/ianvs/image_subscription.h

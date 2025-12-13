@@ -1,1 +1,0 @@
-/root/ros_workspace/src/build/hydra_msgs/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_c.h
