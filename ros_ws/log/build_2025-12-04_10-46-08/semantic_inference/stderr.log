@@ -1,5 +1,0 @@
-[33mCMake Warning at CMakeLists.txt:25 (message):
-  TensorRT is required for inference to run! Follow the install instructions
-  (if possible) to enable inference
-
-[0m

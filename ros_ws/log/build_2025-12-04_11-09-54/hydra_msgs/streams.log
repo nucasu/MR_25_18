@@ -1,8 +1,0 @@
-[0.052s] Invoking command in '/root/ros_workspace/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/hydra_msgs -- -j8 -l8
-[0.284s] [  1%] Built target hydra_msgs__rosidl_generator_type_description
-[0.284s] failed to create symbolic link '/root/ros_workspace/build/hydra_msgs/ament_cmake_python/hydra_msgs/hydra_msgs' because existing path cannot be removed: Is a directory
-[0.285s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_hydra_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_hydra_msgs] Error 1
-[0.285s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_hydra_msgs.dir/all] Error 2
-[0.286s] gmake[1]: *** Waiting for unfinished jobs....
-[0.286s] gmake: *** [Makefile:146: all] Error 2
-[0.344s] Invoked command in '/root/ros_workspace/build/hydra_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/hydra_msgs -- -j8 -l8

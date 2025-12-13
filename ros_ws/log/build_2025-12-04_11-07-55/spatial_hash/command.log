@@ -1,2 +1,0 @@
-Invoking command in '/root/ros_workspace/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spatial_hash -- -j8 -l8
-Invoked command in '/root/ros_workspace/build/spatial_hash' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spatial_hash -- -j8 -l8

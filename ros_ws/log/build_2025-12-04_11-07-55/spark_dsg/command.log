@@ -1,2 +1,0 @@
-Invoking command in '/root/ros_workspace/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8
-Invoked command in '/root/ros_workspace/build/spark_dsg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/spark_dsg -- -j8 -l8

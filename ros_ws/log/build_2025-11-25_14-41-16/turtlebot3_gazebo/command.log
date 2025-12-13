@@ -1,3 +1,0 @@
-Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j12 -l12
-Invoked command in '/root/ros_workspace/build/turtlebot3_gazebo' returned '0': /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j12 -l12
-Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_gazebo

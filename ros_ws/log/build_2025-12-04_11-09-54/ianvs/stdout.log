@@ -1,6 +1,0 @@
-[ 34%] Built target ianvs
-[ 39%] [32m[1mLinking CXX shared module _ianvs_bindings.cpython-312-x86_64-linux-gnu.so[0m
-[ 43%] Built target ament_cmake_python_symlink_ianvs_setup
-[ 47%] Built target transform_file_broadcaster
-[ 56%] Built target ianvs_rosbag
-[ 65%] Built target _ianvs_bindings
