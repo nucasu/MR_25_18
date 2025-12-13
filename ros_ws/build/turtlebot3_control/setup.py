@@ -1,1 +1,0 @@
-/root/ros_workspace/src/turtlebot3_control/setup.py

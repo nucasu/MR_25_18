@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/build/semantic_inference_msgs/rosidl_generator_py/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_c.so" "TARGETS" "semantic_inference_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/semantic_inference_msgs")

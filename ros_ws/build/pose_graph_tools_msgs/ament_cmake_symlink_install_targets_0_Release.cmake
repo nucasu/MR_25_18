@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/build/pose_graph_tools_msgs/rosidl_generator_py/pose_graph_tools_msgs/pose_graph_tools_msgs_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "pose_graph_tools_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/pose_graph_tools_msgs")

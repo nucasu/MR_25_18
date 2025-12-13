@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_workspace/build/kimera_pgmo_msgs/rosidl_generator_py/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/kimera_pgmo_msgs")
