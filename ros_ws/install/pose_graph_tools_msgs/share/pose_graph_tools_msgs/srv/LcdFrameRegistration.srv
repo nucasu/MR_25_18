@@ -1,7 +1,0 @@
-uint64 query_robot
-uint64 match_robot
-uint64 query
-uint64 match
----
-bool valid
-geometry_msgs/Pose match_from_query
