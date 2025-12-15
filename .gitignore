@@ -1,4 +1,21 @@
-ros_ws/build/
-ros_ws/log/
-ros_ws/install/
-ros_ws/src/DynamixelSDK
+# ROS2 / colcon
+build/
+install/
+log/
+DynamixelSDK/
+COLCON_IGNORE
+AMENT_IGNORE
+ 
+# CMake generati
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+ 
+# Python
+__pycache__/
+*.py[cod]
+ 
+# VS Code
+.vscode/
+
