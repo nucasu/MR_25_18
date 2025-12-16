@@ -19,3 +19,7 @@ __pycache__/
 # VS Code
 .vscode/
 
+chown_me.sh
+clone_repos.sh
+exec.sh
+run.sh
