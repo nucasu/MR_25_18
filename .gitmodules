@@ -3,4 +3,4 @@
 	url = https://github.com/MIT-SPARK/Hydra-ROS.git
 [submodule "ros_ws/src/config_utilities"]
 	path = ros_ws/src/config_utilities
-	url = https://github.com/MIT-SPARK/Hydra-ROS.git
+	url = https://github.com/MIT-SPARK/config_utilities.git
