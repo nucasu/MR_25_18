@@ -1,6 +1,54 @@
-[submodule "ros_ws/src/hydra_ros"]
-	path = ros_ws/src/hydra_ros
-	url = https://github.com/MIT-SPARK/Hydra-ROS.git
 [submodule "ros_ws/src/config_utilities"]
-	path = ros_ws/src/config_utilities
-	url = https://github.com/MIT-SPARK/config_utilities.git
+    path = ros_ws/src/config_utilities
+    url = https://github.com/MIT-SPARK/config_utilities.git
+    branch = main
+
+[submodule "ros_ws/src/hydra"]
+    path = ros_ws/src/hydra
+    url = https://github.com/MIT-SPARK/Hydra.git
+    branch = main
+
+[submodule "ros_ws/src/hydra_ros"]
+    path = ros_ws/src/hydra_ros
+    url = https://github.com/MIT-SPARK/Hydra-ROS.git
+    branch = main
+
+[submodule "ros_ws/src/ianvs"]
+    path = ros_ws/src/ianvs
+    url = https://github.com/MIT-SPARK/Ianvs.git
+    branch = main
+
+[submodule "ros_ws/src/kimera_pgmo"]
+    path = ros_ws/src/kimera_pgmo
+    url = https://github.com/MIT-SPARK/Kimera-PGMO.git
+    branch = ros2
+
+[submodule "ros_ws/src/kimera_rpgo"]
+    path = ros_ws/src/kimera_rpgo
+    url = https://github.com/MIT-SPARK/Kimera-RPGO.git
+    branch = develop
+
+[submodule "ros_ws/src/pose_graph_tools"]
+    path = ros_ws/src/pose_graph_tools
+    url = https://github.com/MIT-SPARK/pose_graph_tools.git
+    branch = ros2
+
+[submodule "ros_ws/src/semantic_inference"]
+    path = ros_ws/src/semantic_inference
+    url = https://github.com/MIT-SPARK/semantic_inference.git
+    branch = main
+
+[submodule "ros_ws/src/spark_dsg"]
+    path = ros_ws/src/spark_dsg
+    url = https://github.com/MIT-SPARK/Spark-DSG.git
+    branch = main
+
+[submodule "ros_ws/src/spatial_hash"]
+    path = ros_ws/src/spatial_hash
+    url = https://github.com/MIT-SPARK/Spatial-Hash.git
+    branch = main
+
+[submodule "ros_ws/src/teaser_plusplus"]
+    path = ros_ws/src/teaser_plusplus
+    url = https://github.com/MIT-SPARK/TEASER-plusplus.git
+    branch = master
