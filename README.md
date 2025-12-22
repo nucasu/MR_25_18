@@ -1,92 +1,102 @@
+Ecco il tuo README tradotto in inglese e con i blocchi di comandi sistemati in Markdown.
+
+text
 # MR_25_18 – Hydra + TurtleBot3
 
-Workspace ROS 2 che integra Hydra-ROS con TurtleBot3 (reale o in simulazione) per costruire una **scene graph 3D** a partire dai dati della depth camera e dell’odometria.
+ROS 2 workspace that integrates Hydra-ROS with TurtleBot3 (real or simulated) to build a **3D scene graph** from depth camera and odometry data. [web:7][web:193]
 
-## Requisiti
+## Requirements
 
-- ROS 2 Jazzy (su Ubuntu 24.04 o immagine Docker `osrf/ros:jazzy-desktop`) 
-- Docker + Docker Compose installati sull’host
-- Git + vcstool (`vcs`) per gestire i repository ROS 
-- Scheda grafica/X11 configurato se vuoi usare RViz/Gazebo dal container 
+- ROS 2 Jazzy (on Ubuntu 24.04 or Docker image `osrf/ros:jazzy-desktop`) [web:200]
+- Docker + Docker Compose installed on the host
+- Git + vcstool (`vcs`) to manage ROS repositories [web:7]
+- GPU / X11 configured if you want to use RViz/Gazebo from inside the container [web:205]
 
-## Installazione
+## Installation
 
-1. Clona il repository:
+1. Clone the repository:
 
+```bash
 cd ~
 git clone https://github.com/nucasu/MR_25_18.git MR_25_18
 cd MR_25_18
+Initialize the ROS 2 workspace and external packages (Hydra, Kimera, etc.):
 
-2. Inizializza il workspace ROS 2 e i pacchetti esterni (Hydra, Kimera, ecc.):
-
+bash
 cd ros_ws/src
 vcs import . < hydra_ros/install/ros2_docker.yaml
+Build the development Docker image (Hydra + ROS 2):
 
-3. Costruisci l’immagine Docker di sviluppo (Hydra + ROS 2):
-
+bash
 cd ~/MR_25_18/ros_ws/src/hydra_ros/docker
 make build PROFILE=minimal
+Start the container:
 
-4. Avvia il container:
-
+bash
 make run PROFILE=minimal
+This starts a hydra-minimal container with the workspace mounted at /root/hydra_ws. [web:7]
 
-Questo crea un container `hydra-minimal` con il workspace montato in `/root/hydra_ws`. 
+Building the workspace inside the container
+Inside the container:
 
-## Build del workspace nel container
-
-Dentro al container:
-
+bash
 docker exec -it hydra-minimal bash
-
+bash
 cd /root/hydra_ws
 source /opt/ros/jazzy/setup.bash
 rosdep install --from-paths src --ignore-src -r -y
 MAKEFLAGS="-j2" colcon build --parallel-workers 2 --symlink-install --continue-on-error
+For every new shell:
 
-Ogni nuova sessione:
-
+bash
 cd /root/hydra_ws
 source install/setup.bash
+Usage – Hydra with TurtleBot3 in simulation
+(Optional) Start the TurtleBot3 simulation in Gazebo inside the container or from another ROS 2 environment that shares the same network and ROS_DOMAIN_ID. [web:93][web:194]
 
-## Uso – Hydra con TurtleBot3 in simulazione
+Example (if TurtleBot3 is installed in the container):
 
-1. (Opzionale) Lancia la simulazione TurtleBot3 in Gazebo **dentro il container** o da un altro ambiente ROS 2 che condivida la rete e il `ROS_DOMAIN_ID`. 
-
-   Esempio (se hai TurtleBot3 installato nel container):
-
+bash
 export TURTLEBOT3_MODEL=waffle_pi
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+Launch Hydra-ROS:
 
-2. Lancia Hydra-ROS:
-
+bash
 cd /root/hydra_ws
 source install/setup.bash
 
-ros2 launch hydra_ros hydra.launch.yaml
-dataset:=<nome_dataset>
-labelspace:=<nome_labelspace>
-start_visualizer:=true
-start_rviz:=true
+ros2 launch hydra_ros hydra.launch.yaml \
+  dataset:=<dataset_name> \
+  labelspace:=<labelspace_name> \
+  start_visualizer:=true \
+  start_rviz:=true
+Choose dataset and labelspace among:
 
+install/hydra/share/hydra/config/datasets/
 
-Scegli `dataset` e `labelspace` tra quelli presenti in:
+install/hydra_ros/share/hydra_ros/config/datasets/
 
-- `install/hydra/share/hydra/config/datasets/`
-- `install/hydra_ros/share/hydra_ros/config/datasets/`
-- `install/hydra/share/hydra/config/label_spaces/` 
+install/hydra/share/hydra/config/label_spaces/ [web:7]
 
-3. Verifica i topic:
+Check the topics:
 
+bash
 ros2 topic list
+Configure the YAML files in hydra_ros/config/datasets/ so that the topic names (depth, odom, TF, etc.) match those published by TurtleBot3/Gazebo. [web:74]
 
-Configura i file YAML in `hydra_ros/config/datasets/` in modo che i nomi dei topic (depth, odom, TF, ecc.) coincidano con quelli pubblicati da TurtleBot3/Gazebo. 
+Project structure
+ros_ws/ – ROS 2 workspace
 
-## Struttura del progetto
+src/hydra/ – Hydra core (scene graph engine)
 
-- `ros_ws/` – Workspace ROS 2
-- `src/hydra/` – Core Hydra (scene graph engine)
-- `src/hydra_ros/` – Interfaccia ROS 2 e launcher Docker
-- altri pacchetti: Kimera, spark_dsg, ecc.
-- `ros_ws/src/hydra_ros/docker/` – Dockerfile, `docker-compose.yml`, Makefile (`build`, `run`, …)
-- `MR_25_18/` – Configurazioni, script e documentazione specifici del progetto
+src/hydra_ros/ – ROS 2 interface and Docker launch files
+
+other packages: Kimera, spark_dsg, etc.
+
+ros_ws/src/hydra_ros/docker/ – Dockerfile, docker-compose.yml, Makefile (build, run, …)
+
+MR_25_18/ – Project-specific configuration, scripts and documentation
+
+text
+
+Se vuoi, nel prossimo passo si può aggiungere una sezione “Known issues / tips” con i problemi che hai incontrato (memoria, `CMakeCache`, ecc.).
