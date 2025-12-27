@@ -1,0 +1,13 @@
+total_semantic_labels: 51
+label_names:
+  - {label: 0, name: unknown}
+  - {label: 1, name: sky}
+  - {label: 2, name: tree}
+  - {label: 3, name: water}
+  - {label: 4, name: ground}
+  - {label: 5, name: grass}
+  - {label: 6, name: sand}
+  - {label: 7, name: sidewalk}
+  - {label: 8, name: dock}
+  - {label: 9, name: road}
+  - {label: 10, name: path}
