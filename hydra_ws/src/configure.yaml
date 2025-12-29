@@ -1,0 +1,6 @@
+input:
+  type: RosInput
+  inputs:
+    RGBD:
+      receiver: {type: PointcloudReceiver}
+      sensor: Lidar

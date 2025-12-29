@@ -7,7 +7,7 @@ launch:
   - set_remap: {from: hydra/input/camera/rgb/image_raw, to: /camera/image_raw}
   - set_remap: {from: hydra/input/camera/rgb/camera_info, to: /camera/camera_info}
   - set_remap: {from: hydra/input/camera/depth_registered/image_rect, to: /camera/depth/image_raw}
-  - set_remap: {from: hydra/input/camera/semantic/image_raw, to: /} #semantic topic
+  - set_remap: {from: hydra/input/camera/semantic/image_raw, to: /segmentation/labels_map} #semantic topic
   - node:  # hydra
       pkg: hydra_ros
       exec: hydra_ros_node

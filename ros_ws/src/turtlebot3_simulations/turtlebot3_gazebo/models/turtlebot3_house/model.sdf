@@ -25,6 +25,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_101_Collision'>
         <laser_retro>0</laser_retro>
@@ -106,6 +109,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_104_Visual_2'>
         <pose frame=''>1.5325 0 2.25 0 -0 0</pose>
@@ -127,6 +133,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_104_Visual_0'>
         <pose frame=''>-0.583752 0 1.25 0 -0 0</pose>
@@ -148,6 +157,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_104_Collision_1'>
         <laser_retro>0</laser_retro>
@@ -339,6 +351,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_106_Visual_2'>
         <pose frame=''>0.019471 0 2.25 0 -0 0</pose>
@@ -360,6 +375,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_106_Visual_0'>
         <pose frame=''>-0.902765 0 1.25 0 -0 0</pose>
@@ -381,6 +399,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_106_Collision_1'>
         <laser_retro>0</laser_retro>
@@ -572,6 +593,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_108_Visual_1'>
         <pose frame=''>3.34368 0 0.5 0 -0 0</pose>
@@ -593,6 +617,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_108_Collision_1'>
         <laser_retro>0</laser_retro>
@@ -729,6 +756,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_81_Collision'>
         <laser_retro>0</laser_retro>
@@ -810,6 +840,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_82_Collision'>
         <laser_retro>0</laser_retro>
@@ -891,6 +924,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_6'>
         <pose frame=''>1.39775 0 2.1 0 -0 0</pose>
@@ -912,6 +948,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_3'>
         <pose frame=''>0.110246 0 1.5 0 -0 0</pose>
@@ -933,6 +972,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_1'>
         <pose frame=''>0.080993 0 0.25 0 -0 0</pose>
@@ -954,6 +996,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_4'>
         <pose frame=''>-1.20651 0 2.1 0 -0 0</pose>
@@ -975,6 +1020,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_5'>
         <pose frame=''>1.39775 0 2.1 0 -0 0</pose>
@@ -996,6 +1044,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_83_Visual_0'>
         <pose frame=''>-2.41901 0 1.25 0 -0 0</pose>
@@ -1017,6 +1068,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_83_Collision_4'>
         <laser_retro>0</laser_retro>
@@ -1428,6 +1482,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_84_Collision'>
         <laser_retro>0</laser_retro>
@@ -1509,6 +1566,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_85_Visual_2'>
         <pose frame=''>1.76906 0 1.5 0 -0 0</pose>
@@ -1530,6 +1590,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_85_Visual_0'>
         <pose frame=''>-1.14694 0 1.25 0 -0 0</pose>
@@ -1551,6 +1614,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_85_Visual_1'>
         <pose frame=''>1.10306 0 0.25 0 -0 0</pose>
@@ -1572,6 +1638,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_85_Collision_3'>
         <laser_retro>0</laser_retro>
@@ -1818,6 +1887,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_86_Visual_4'>
         <pose frame=''>-1.22476 0 2.1 0 -0 0</pose>
@@ -1839,6 +1911,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_86_Visual_0'>
         <pose frame=''>-2.21538 0 1.25 0 -0 0</pose>
@@ -1860,6 +1935,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_86_Visual_5'>
         <pose frame=''>1.22246 0 2.1 0 -0 0</pose>
@@ -1881,6 +1959,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_86_Visual_2'>
         <pose frame=''>0.0521 0 1.5 0 -0 0</pose>
@@ -1902,6 +1983,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_86_Visual_3'>
         <pose frame=''>2.16098 0 1.5 0 -0 0</pose>
@@ -1923,6 +2007,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_86_Collision_4'>
         <laser_retro>0</laser_retro>
@@ -2279,6 +2366,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_87_Collision'>
         <laser_retro>0</laser_retro>
@@ -2360,6 +2450,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_88_Collision'>
         <laser_retro>0</laser_retro>
@@ -2441,6 +2534,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_90_Collision'>
         <laser_retro>0</laser_retro>
@@ -2522,6 +2618,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_91_Visual_2'>
         <pose frame=''>-0.028002 0 2.25 0 -0 0</pose>
@@ -2543,6 +2642,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_91_Visual_1'>
         <pose frame=''>0.523499 0 1.25 0 -0 0</pose>
@@ -2564,6 +2666,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_91_Collision_0'>
         <laser_retro>0</laser_retro>
@@ -2755,6 +2860,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_92_Collision'>
         <laser_retro>0</laser_retro>
@@ -2836,6 +2944,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_93_Collision'>
         <laser_retro>0</laser_retro>
@@ -2917,6 +3028,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_94_Collision'>
         <laser_retro>0</laser_retro>
@@ -2998,6 +3112,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_95_Visual_2'>
         <pose frame=''>-0.036959 0 1.5 0 -0 0</pose>
@@ -3019,6 +3136,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_95_Visual_3'>
         <pose frame=''>2.43783 0 1.5 0 -0 0</pose>
@@ -3040,6 +3160,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_95_Visual_5'>
         <pose frame=''>1.42565 0 2.1 0 -0 0</pose>
@@ -3061,6 +3184,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_95_Visual_4'>
         <pose frame=''>-1.35407 0 2.1 0 -0 0</pose>
@@ -3082,6 +3208,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_95_Visual_0'>
         <pose frame=''>-2.32929 0 1.25 0 -0 0</pose>
@@ -3103,6 +3232,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_95_Collision_2'>
         <laser_retro>0</laser_retro>
@@ -3459,6 +3591,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_96_Visual_2'>
         <pose frame=''>2.06924 0 1.5 0 -0 0</pose>
@@ -3480,6 +3615,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_96_Visual_3'>
         <pose frame=''>0.070981 0 2.1 0 -0 0</pose>
@@ -3501,6 +3639,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_96_Visual_0'>
         <pose frame=''>-1.99826 0 1.25 0 -0 0</pose>
@@ -3522,6 +3663,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_96_Collision_2'>
         <laser_retro>0</laser_retro>
@@ -3768,6 +3912,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_98_Visual_1'>
         <pose frame=''>0.857889 0 1.25 0 -0 0</pose>
@@ -3789,6 +3936,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_98_Visual_0'>
         <pose frame=''>-0.842111 0 1.25 0 -0 0</pose>
@@ -3810,6 +3960,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_98_Collision_0'>
         <laser_retro>0</laser_retro>
@@ -4001,6 +4154,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_99_Visual_2'>
         <pose frame=''>0.215786 0 2.25 0 -0 0</pose>
@@ -4022,6 +4178,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <visual name='Wall_99_Visual_1'>
         <pose frame=''>1.83695 0 1.25 0 -0 0</pose>
@@ -4043,6 +4202,9 @@
         </material>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>1</label>
+        </plugin>
       </visual>
       <collision name='Wall_99_Collision_0'>
         <laser_retro>0</laser_retro>
@@ -4239,6 +4401,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>2</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>0.883462 -0.576236 0 0 0 -3.14159</pose>
@@ -4275,6 +4440,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='left_side'>
           <pose frame=''>0.45 -0.195 0.6 0 -0 0</pose>
@@ -4302,6 +4470,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='right_side'>
           <pose frame=''>-0.45 -0.195 0.6 0 -0 0</pose>
@@ -4329,6 +4500,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='bottom'>
           <pose frame=''>0 -0.195 0.03 0 -0 0</pose>
@@ -4356,6 +4530,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='top'>
           <pose frame=''>0 -0.195 1.19 0 -0 0</pose>
@@ -4383,6 +4560,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='low_shelf'>
           <pose frame=''>0 -0.195 0.43 0 -0 0</pose>
@@ -4410,6 +4590,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='high_shelf'>
           <pose frame=''>0 -0.195 0.8 0 -0 0</pose>
@@ -4437,6 +4620,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>-6.54397 5.19486 -0 0 -0 0</pose>
@@ -4473,6 +4659,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='left_side'>
           <pose frame=''>0.45 -0.195 0.6 0 -0 0</pose>
@@ -4500,6 +4689,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='right_side'>
           <pose frame=''>-0.45 -0.195 0.6 0 -0 0</pose>
@@ -4527,6 +4719,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='bottom'>
           <pose frame=''>0 -0.195 0.03 0 -0 0</pose>
@@ -4554,6 +4749,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='top'>
           <pose frame=''>0 -0.195 1.19 0 -0 0</pose>
@@ -4581,6 +4779,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='low_shelf'>
           <pose frame=''>0 -0.195 0.43 0 -0 0</pose>
@@ -4608,6 +4809,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='high_shelf'>
           <pose frame=''>0 -0.195 0.8 0 -0 0</pose>
@@ -4635,6 +4839,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>4.72359 5.17921 0 0 -0 0</pose>
@@ -4671,6 +4878,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='left_side'>
           <pose frame=''>0.45 -0.195 0.6 0 -0 0</pose>
@@ -4698,6 +4908,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='right_side'>
           <pose frame=''>-0.45 -0.195 0.6 0 -0 0</pose>
@@ -4725,6 +4938,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='bottom'>
           <pose frame=''>0 -0.195 0.03 0 -0 0</pose>
@@ -4752,6 +4968,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='top'>
           <pose frame=''>0 -0.195 1.19 0 -0 0</pose>
@@ -4779,6 +4998,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='low_shelf'>
           <pose frame=''>0 -0.195 0.43 0 -0 0</pose>
@@ -4806,6 +5028,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
         <collision name='high_shelf'>
           <pose frame=''>0 -0.195 0.8 0 -0 0</pose>
@@ -4833,6 +5058,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>5.64449 5.17912 0 0 -0 0</pose>
@@ -4878,6 +5106,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_back_plate'>
           <pose frame=''>0.235 0 0.51 0 -0 0</pose>
@@ -4905,6 +5136,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_left_plate'>
           <pose frame=''>0 0.235 0.51 0 -0 0</pose>
@@ -4932,6 +5166,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_middle_plate'>
           <pose frame=''>0 0 0.51 0 -0 0</pose>
@@ -4959,6 +5196,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_right_plate'>
           <pose frame=''>0 -0.235 0.51 0 -0 0</pose>
@@ -4986,6 +5226,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_top_plate'>
           <pose frame=''>0 0 1.01 0 -0 0</pose>
@@ -5013,6 +5256,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>-5.472 -1.57624 0 0 -0 0</pose>
@@ -5058,6 +5304,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_back_plate'>
           <pose frame=''>0.235 0 0.51 0 -0 0</pose>
@@ -5085,6 +5334,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_left_plate'>
           <pose frame=''>0 0.235 0.51 0 -0 0</pose>
@@ -5112,6 +5364,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_middle_plate'>
           <pose frame=''>0 0 0.51 0 -0 0</pose>
@@ -5139,6 +5394,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_right_plate'>
           <pose frame=''>0 -0.235 0.51 0 -0 0</pose>
@@ -5166,6 +5424,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_top_plate'>
           <pose frame=''>0 0 1.01 0 -0 0</pose>
@@ -5193,6 +5454,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>-5.47289 -2.06545 0 0 -0 0</pose>
@@ -5238,6 +5502,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_back_plate'>
           <pose frame=''>0.235 0 0.51 0 -0 0</pose>
@@ -5265,6 +5532,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_left_plate'>
           <pose frame=''>0 0.235 0.51 0 -0 0</pose>
@@ -5292,6 +5562,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_middle_plate'>
           <pose frame=''>0 0 0.51 0 -0 0</pose>
@@ -5319,6 +5592,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_right_plate'>
           <pose frame=''>0 -0.235 0.51 0 -0 0</pose>
@@ -5346,6 +5622,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
         <collision name='cabinet_bottom_plate_geom_cabinet_top_plate'>
           <pose frame=''>0 0 1.01 0 -0 0</pose>
@@ -5373,6 +5652,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>4</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>-7.18363 1.24799 0 0 0 -1.5708</pose>
@@ -5410,6 +5692,9 @@
               <uri>model://turtlebot3_house/cafe_table/meshes/cafe_table.dae</uri>
             </mesh>
           </geometry>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>6.35919 -3.19202 0 0 -0 0</pose>
@@ -5447,6 +5732,9 @@
               <uri>model://turtlebot3_house/cafe_table/meshes/cafe_table.dae</uri>
             </mesh>
           </geometry>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>6.35903 -2.27759 0 0 -0 0</pose>
@@ -5471,6 +5759,9 @@
               <uri>model://turtlebot3_house/first_2015_trash_can/meshes/trash_can.dae</uri>
             </mesh>
           </geometry>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>6</label>
+          </plugin>
         </visual>
         <collision name='collision'>
           <geometry>
@@ -5502,6 +5793,9 @@
               <uri>model://turtlebot3_house/first_2015_trash_can/meshes/trash_can.dae</uri>
             </mesh>
           </geometry>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>6</label>
+          </plugin>
         </visual>
         <collision name='collision'>
           <geometry>
@@ -5550,6 +5844,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>7</label>
+          </plugin>
         </visual>
         <collision name='front_left_leg'>
           <pose frame=''>0.68 0.38 0.5 0 -0 0</pose>
@@ -5573,6 +5870,9 @@
             <diffuse>0.7 0.7 0.7 1.0</diffuse>
             <specular>0.01 0.01 0.01 1.0</specular>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>7</label>
+          </plugin>
         </visual>
         <collision name='front_right_leg'>
           <pose frame=''>0.68 -0.38 0.5 0 -0 0</pose>
@@ -5596,6 +5896,9 @@
             <diffuse>0.7 0.7 0.7 1.0</diffuse>
             <specular>0.01 0.01 0.01 1.0</specular>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>7</label>
+          </plugin>
         </visual>
         <collision name='back_right_leg'>
           <pose frame=''>-0.68 -0.38 0.5 0 -0 0</pose>
@@ -5619,6 +5922,9 @@
             <diffuse>0.7 0.7 0.7 1.0</diffuse>
             <specular>0.01 0.01 0.01 1.0</specular>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>7</label>
+          </plugin>
         </visual>
         <collision name='back_left_leg'>
           <pose frame=''>-0.68 0.38 0.5 0 -0 0</pose>
@@ -5642,6 +5948,9 @@
             <diffuse>0.7 0.7 0.7 1.0</diffuse>
             <specular>0.01 0.01 0.01 1.0</specular>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>7</label>
+          </plugin>
         </visual>
       </link>
       <pose frame=''>-2.65728 2.42376 0 0 -0 0</pose>
@@ -5676,6 +5985,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>8</label>
+          </plugin>
         </visual>
       </link>
     </model>

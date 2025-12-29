@@ -8,9 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 
-# Installazione delle directory (DEVE stare prima di ament_package)
 install(
-  DIRECTORY launch config
+  DIRECTORY launch config label_spaces
   DESTINATION share/${PROJECT_NAME}
 )
 
