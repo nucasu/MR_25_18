@@ -9,10 +9,12 @@ input:
       receiver:
         type: ClosedSetImageReceiver
         queue_size: 30
+        tf_lookup_timeout_s: 0.5
+        sensor_frame: camera_link
       sensor:
         type: camera_info
         min_range: 0.4
-        max_range: 5.0
+        max_range: 3.5
         extrinsics:
           type: ros
 map_window:
@@ -31,10 +33,10 @@ frontend:
   pgmo:
     time_horizon: 15.0
     d_graph_resolution: 2.5
-    mesh_resolution: 0.005
+    mesh_resolution: 0.1
   objects:
-    min_cluster_size: 40
-    cluster_tolerance: 0.25
+    min_cluster_size: 100
+    cluster_tolerance: 0.15
     bounding_box_type: RAABB
   surface_places:
     type: place_2d
@@ -42,10 +44,10 @@ frontend:
     pure_final_place_size: 3
     enable_place_purity: false
     impure_final_place_size: 1
-    cluster_tolerance: 0.3
-    min_cluster_size: 50
+    cluster_tolerance: 0.4
+    min_cluster_size: 20
     max_cluster_size: 100000
-    min_final_place_points: 10
+    min_final_place_points: 5
     place_max_neighbor_z_diff: 0.5
     place_overlap_threshold: 0.0
 backend:

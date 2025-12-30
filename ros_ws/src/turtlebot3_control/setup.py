@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'waypoint_controller = turtlebot3_control.waypoint_controller:main',
+            'semantic_converter = turtlebot3_control.semantic_converter:main',
         ],
     },
 )

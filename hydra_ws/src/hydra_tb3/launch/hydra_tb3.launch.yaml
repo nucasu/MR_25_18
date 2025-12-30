@@ -4,14 +4,21 @@
 #   - color info:  /camera/camera_info
 #   - depth image: /camera/depth/image_raw
 launch:
+
+  - arg: {name: use_sim_time, default: 'true'}
+
   - set_remap: {from: hydra/input/camera/rgb/image_raw, to: /camera/image_raw}
   - set_remap: {from: hydra/input/camera/rgb/camera_info, to: /camera/camera_info}
   - set_remap: {from: hydra/input/camera/depth_registered/image_rect, to: /camera/depth/image_raw}
-  - set_remap: {from: hydra/input/camera/semantic/image_raw, to: /segmentation/labels_map} #semantic topic
+  - set_remap: {from: hydra/input/camera/semantic/image_raw, to: /semantic/labels} #semantic topic
+
   - node:  # hydra
       pkg: hydra_ros
       exec: hydra_ros_node
       name: hydra
+      param:
+        - {name: use_sim_time, value: $(var use_sim_time)}
+        - {name: tf_lookup_timeout_s, value: 0.1}
       args: >
         --config-utilities-file $(find-pkg-share hydra_tb3)/config/hydra_tb3.yaml
         --config-utilities-file $(find-pkg-share hydra_tb3)/label_spaces/house.yaml
@@ -19,3 +26,5 @@ launch:
   - set_remap: {from: hydra_visualizer/dsg, to: hydra/backend/dsg}
   - include:  # visualization
       file: $(find-pkg-share hydra_visualizer)/launch/streaming_visualizer.launch.yaml
+      arg:
+        - {name: use_sim_time, value: $(var use_sim_time)}
