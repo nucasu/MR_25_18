@@ -1,30 +1,23 @@
 ---
-# Assumes the input camera has the following topics:
-#   - color image: /camera/image_raw
-#   - color info:  /camera/camera_info
-#   - depth image: /camera/depth/image_raw
 launch:
-
-  - arg: {name: use_sim_time, default: 'true'}
-
   - set_remap: {from: hydra/input/camera/rgb/image_raw, to: /camera/image_raw}
-  - set_remap: {from: hydra/input/camera/rgb/camera_info, to: /camera/camera_info}
   - set_remap: {from: hydra/input/camera/depth_registered/image_rect, to: /camera/depth/image_raw}
+  - set_remap: {from: hydra/input/camera/rgb/camera_info, to: /camera/camera_info}
   - set_remap: {from: hydra/input/camera/semantic/image_raw, to: /semantic/labels} #semantic topic
 
-  - node:  # hydra
-      pkg: hydra_ros
-      exec: hydra_ros_node
-      name: hydra
-      param:
-        - {name: use_sim_time, value: $(var use_sim_time)}
-        - {name: tf_lookup_timeout_s, value: 0.1}
-      args: >
-        --config-utilities-file $(find-pkg-share hydra_tb3)/config/hydra_tb3.yaml
-        --config-utilities-file $(find-pkg-share hydra_tb3)/label_spaces/house.yaml
-        --config-utilities-yaml {log_path: $(env HOME)/.hydra/house}
-  - set_remap: {from: hydra_visualizer/dsg, to: hydra/backend/dsg}
-  - include:  # visualization
-      file: $(find-pkg-share hydra_visualizer)/launch/streaming_visualizer.launch.yaml
+  - include:
+      file: $(find-pkg-share hydra_ros)/launch/hydra.launch.yaml
       arg:
-        - {name: use_sim_time, value: $(var use_sim_time)}
+        - {name: dataset, value: house}
+        - {name: labelspace, value: house}
+        - {name: use_sim_time, value: 'true'}
+        - {name: sensor_frame, value: camera_rgb_optical_frame}
+        - {name: robot_frame, value: base_link}
+        - {name: odom_frame, value: odom}
+        - {name: map_frame, value: map}
+        - {name: hydra_config_path, value: $(find-pkg-share hydra)/config/datasets/uhumans2.yaml}
+        - {name: input_config_path, value: $(find-pkg-share hydra_tb3)/config/hydra_tb3.yaml}
+        - {name: labelspace_path, value: $(find-pkg-share hydra_tb3)/label_spaces/house.yaml}
+        - {name: lcd_config_path, value: $(find-pkg-share hydra)/config/lcd/uhumans2.yaml}
+        - {name: log_path, value: $(env HOME)/.hydra/house}
+

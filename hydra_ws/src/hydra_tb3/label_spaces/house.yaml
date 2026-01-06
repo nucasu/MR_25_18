@@ -1,7 +1,9 @@
-total_semantic_labels: 9
-invalid_labels: [0]
+---
+total_semantic_labels: 10
+dynamic_labels: []
+invalid_labels: []
 object_labels: [2, 3, 4, 5, 6, 7, 8]
-surface_places_labels: [1]
+surface_places_labels: []
 label_names:
   - {label: 0, name: unknown}
   - {label: 1, name: wall}

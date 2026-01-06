@@ -46,7 +46,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
-            default_value='false',
+            default_value='true',
             description='Use simulation (Gazebo) clock if true'),
         Node(
             package='robot_state_publisher',
@@ -56,7 +56,9 @@ def generate_launch_description():
             parameters=[{
                 'use_sim_time': use_sim_time,
                 'robot_description': robot_desc,
-                'frame_prefix': PythonExpression(["'", frame_prefix, "/'"])
+                #'frame_prefix': PythonExpression(["'", frame_prefix, "/'"])
+                #'publish_frequency': 30.0,      # Forza la pubblicazione continua a 30Hz 
+                #'ignore_timestamp': False,
             }],
         ),
     ])

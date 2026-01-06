@@ -37,6 +37,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='one_two'>
@@ -73,6 +76,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='one_three'>
@@ -109,6 +115,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='two_one'>
@@ -145,6 +154,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='two_two'>
@@ -181,6 +193,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='two_three'>
@@ -217,6 +232,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='three_one'>
@@ -253,6 +271,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='three_two'>
@@ -289,6 +310,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <collision name='three_three'>
@@ -325,6 +349,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>3</label>
+          </plugin>
         </visual>
 
         <!-- Draw Hexagon -->
@@ -362,6 +389,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
 
         <collision name='left_hand'>
@@ -398,6 +428,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
 
         <collision name='right_hand'>
@@ -434,6 +467,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
 
         <collision name='left_foot'>
@@ -470,6 +506,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
 
         <collision name='right_foot'>
@@ -506,6 +545,9 @@
             <specular>0.2 0.2 0.2 1</specular>
             <emissive>0 0 0 1</emissive>
           </material>
+          <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+            <label>5</label>
+          </plugin>
         </visual>
 
         <!-- Draw Wall -->
@@ -543,6 +585,9 @@
           <specular>0 0 0 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
+        <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+          <label>5</label>
+        </plugin>
       </visual>
     </link>
   </model>

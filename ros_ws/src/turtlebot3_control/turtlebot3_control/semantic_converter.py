@@ -2,10 +2,13 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 import numpy as np
+from cv_bridge import CvBridge
 
-class LabelConverter(Node):
+class SemanticToMono(Node):
     def __init__(self):
-        super().__init__('label_converter')
+        super().__init__('semantic_converter')
+
+        self.bridge = CvBridge()
 
         self.sub = self.create_subscription(
             Image,
@@ -20,30 +23,27 @@ class LabelConverter(Node):
             10
         )
 
+        self.get_logger().info('RGB8 → mono8 converter started ...')
+
     def callback(self, msg):
-        # Converti il buffer in array numpy
-        img = np.frombuffer(msg.data, dtype=np.uint8).reshape(msg.height, msg.width, 3)
+        
+        rgb = self.bridge.imgmsg_to_cv2(msg, desired_encoding='rgb8')
 
-        # Estrai il canale giusto (semantic segmentation)
-        labels = img[:, :, 0]
+        class_id = rgb[:, :, 2].astype(np.uint8)
+        
+        # Publish mono-channel image
+        mono_msg = self.bridge.cv2_to_imgmsg(class_id, encoding='mono8')
 
-        # Crea il nuovo messaggio mono8
-        out = Image()
-        out.header = msg.header
-        out.height = msg.height
-        out.width = msg.width
-        out.encoding = 'mono8'
-        out.step = msg.width
-        out.data = labels.tobytes()
-
-        self.pub.publish(out)
+        mono_msg.header = msg.header
+        self.pub.publish(mono_msg)
 
 def main(args=None):
     rclpy.init(args=args)
-    node = LabelConverter()
+    node = SemanticToMono()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+
