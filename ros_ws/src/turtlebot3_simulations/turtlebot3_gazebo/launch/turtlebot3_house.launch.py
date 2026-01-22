@@ -24,7 +24,9 @@ from launch.actions import AppendEnvironmentVariable
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
 
+os.environ['GZ_SIM_RESOURCE_PATH'] = os.path.expanduser('~/.gz/fuel/fuel.gazebosim.org')
 
 def generate_launch_description():
     launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
@@ -76,6 +78,20 @@ def generate_launch_description():
             os.path.join(
                 get_package_share_directory('turtlebot3_gazebo'),
                 'models'))
+    
+    control = Node(
+        package='turtlebot3_control',
+        executable='waypoint_controller',
+        name='waypoint_controller',
+        output='screen'
+    )
+
+    semantic = Node(
+        package='turtlebot3_control',
+        executable='semantic_converter',
+        name='semantic_converter',
+        output='screen'
+    )
 
     ld = LaunchDescription()
 
@@ -85,5 +101,7 @@ def generate_launch_description():
     ld.add_action(spawn_turtlebot_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(set_env_vars_resources)
+    ld.add_action(control)
+    ld.add_action(semantic)
 
     return ld

@@ -19,5 +19,5 @@ launch:
         - {name: input_config_path, value: $(find-pkg-share hydra_tb3)/config/hydra_tb3.yaml}
         - {name: labelspace_path, value: $(find-pkg-share hydra_tb3)/label_spaces/house.yaml}
         - {name: lcd_config_path, value: $(find-pkg-share hydra)/config/lcd/uhumans2.yaml}
-        - {name: log_path, value: $(env HOME)/.hydra/house}
+        - {name: log_path, value: $(env HOME)/hydra_ws/house_scene_graph}
 

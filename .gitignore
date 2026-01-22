@@ -3,10 +3,11 @@ build/
 install/
 log/
 DynamixelSDK/
+house_scene_graph/
 COLCON_IGNORE
 AMENT_IGNORE
  
-# CMake generati
+# CMake
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake

@@ -28,12 +28,8 @@ class SemanticToMono(Node):
     def callback(self, msg):
         
         rgb = self.bridge.imgmsg_to_cv2(msg, desired_encoding='rgb8')
-
         class_id = rgb[:, :, 2].astype(np.uint8)
-        
-        # Publish mono-channel image
         mono_msg = self.bridge.cv2_to_imgmsg(class_id, encoding='mono8')
-
         mono_msg.header = msg.header
         self.pub.publish(mono_msg)
 
