@@ -14,6 +14,7 @@ class WaypointController(Node):
  
         self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
  
+        # Initial robot pose
         self.x = 0.0
         self.y = 0.0
         self.theta = 0.0
@@ -78,24 +79,28 @@ class WaypointController(Node):
         siny_cosp = 2.0 * (q.w * q.z + q.x * q.y)
         cosy_cosp = 1.0 - 2.0 * (q.y * q.y + q.z * q.z)
         self.theta = math.atan2(siny_cosp, cosy_cosp)
- 
+    
+    def normalize(self, a):
+        return math.atan2(math.sin(a), math.cos(a)) # Normalize angle to [-pi, pi]
+
     def control_loop(self):
         
         if self.index >= len(self.waypoints):
             # All waypoints reached, stop the robot
             stop_msg = Twist()
+            stop_msg.linear.x = 0.0
+            stop_msg.angular.z = 0.0
             self.cmd_pub.publish(stop_msg)
             return
  
-        x_d, y_d = self.waypoints[self.index]
+        x_d, y_d = self.waypoints[self.index] # Desired posture
+
+        # Cartisian position errors
+        ex = x_d - self.x
+        ey = y_d - self.y
  
-        dx = x_d - self.x
-        dy = y_d - self.y
- 
-        ex = math.cos(self.theta) * dx + math.sin(self.theta) * dy
-        ey = -math.sin(self.theta) * dx + math.cos(self.theta) * dy
- 
-        dist = math.hypot(ex, ey)
+        #dist = math.hypot(ex, ey) # Distance to the desired posture
+        dist = math.sqrt(ex**2 + ey**2)
  
         # Check if waypoint is reached
         if dist < 0.05:
@@ -103,11 +108,11 @@ class WaypointController(Node):
             self.index += 1
             return
 
-        # --- CARTESIAN REGULATOR ---
-        v = self.k1 * ex
-        w = self.k2 * math.atan2(ey, ex)
+        # --- CARTESIAN REGULATOR CONTROLLER ---
+        v = self.k1 * (ex * math.cos(self.theta) + ey * math.sin(self.theta))
+        w = self.k2 * self.normalize(math.atan2(ey, ex) - self.theta)
 
-        # Saturation
+        # Saturations
         v = max(min(v, 0.8), -0.8)
         w = max(min(w, 1.0), -1.0)
  
