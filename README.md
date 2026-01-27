@@ -1,39 +1,42 @@
-# MR_25_18 – Hydra + TurtleBot3
+# MR_25_18 – Integration of Hydra with the TurtleBot3 simulation
 
-ROS 2 workspace that integrates Hydra-ROS with TurtleBot3 (real or simulated) to build a **3D scene graph** from depth camera and odometry data.
+The objective of this project is to map an environment within the TurtleBot3 simulation by acquiring sensors data and using Hydra to reconstruct a 3D map generating a scene graph.
 
 ## Requirements
 
-- ROS 2 Jazzy (on Ubuntu 24.04 or Docker image `osrf/ros:jazzy-desktop`)
-- Docker + Docker Compose installed on the host
-- Git + vcstool (`vcs`) to manage ROS repositories
-- GPU / X11 configured if you want to use RViz/Gazebo from inside the container
+- Docker
+- ROS 2 Jazzy
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository including all submodules:
 
 ```bash
-cd ~
-git clone https://github.com/nucasu/MR_25_18.git MR_25_18
+git clone --recurse-submodules https://github.com/nucasu/MR_25_18.git
 cd MR_25_18
 ```
 
-2. Initialize the ROS 2 workspace and external packages (Hydra, Kimera, etc.):
+2. Set execution permissions for the project scripts:
+   
 ```bash
-cd ros_ws/src
-vcs import . < hydra_ros/install/ros2_docker.yaml
+chmod +x chown_me.sh exec.sh run.sh run_hydra.sh docker_ws/build_MR_25_18.sh
 ```
 
-3. Build the development Docker image (Hydra + ROS 2):
+3. Build the ROS workspace environment:
 ```bash
-cd ~/MR_25_18/ros_ws/src/hydra_ros/docker
-make build PROFILE=minimal
+./docker_ws/build_MR_25_18.sh
+./run.sh
+colcon build --symlink-install
 ```
 
-4. Start the container:
+4. Exit the Docker container and return to the host system terminal:
 ```bash
-make run PROFILE=minimal
+exit
+``` 
+
+5. Build the Hydra workspace environment::
+```bash
+
 ```
 
 This starts a `hydra-minimal` container with the workspace mounted at `/root/hydra_ws`.
