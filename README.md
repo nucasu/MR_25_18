@@ -1,4 +1,4 @@
-# MR_25_18 – Integration of Hydra with the TurtleBot3 simulation
+# Integration of Hydra with the TurtleBot3 simulation
 
 The objective of this project is to map an environment within the TurtleBot3 simulation by acquiring sensors data and using Hydra to reconstruct a 3D map generating a scene graph.
 
@@ -29,78 +29,55 @@ chmod +x chown_me.sh exec.sh run.sh run_hydra.sh docker_ws/build_MR_25_18.sh
 colcon build --symlink-install
 ```
 
-4. Exit the Docker container and return to the host system terminal:
+4. Return to the host system terminal:
 ```bash
 exit
 ``` 
 
-5. Build the Hydra workspace environment::
-```bash
+5. Modify Docker file in `hydra_ws/src/hydra_ros/docker/minimal/docker-compose.yml` by adding `- /tmp/.X11-unix:/tmp/.X11-unix` in the `volumes` section and `ipc: host` as the last line of the code, in order to enable communication with the ROS workspace and support graphical visualization.
 
+6. Build the Hydra workspace environment:
+```bash
+cd hydra_ws/src/hydra_ros/docker
+make build PROFILE=minimal
+make up PROFILE=minimal
+make shell PROFILE=minimal
+MAKEFLAGS="-j2" colcon build --parallel-workers 2
 ```
 
-This starts a `hydra-minimal` container with the workspace mounted at `/root/hydra_ws`.
-
-## Building the workspace inside the container
-
-Inside the container:
+7. Return to the host system terminal:
 ```bash
-docker exec -it hydra-minimal bash
-```
-undefined
-```bash
-cd /root/hydra_ws
-source /opt/ros/jazzy/setup.bash
-rosdep install --from-paths src --ignore-src -r -y
-MAKEFLAGS="-j2" colcon build --parallel-workers 2 --symlink-install --continue-on-error
-```
+exit
+cd -
+``` 
 
-For every new shell:
+## Simulation
+
+1. Run Hydra:
 ```bash
-cd /root/hydra_ws
+./run_hydra.sh
 source install/setup.bash
+ros2 launch hydra_tb3 hydra_tb3.launch.yaml
 ```
+> RViz2 will start with an empty visualization window.
 
-## Usage – Hydra with TurtleBot3 in simulation
-
-1. (Optional) Start the TurtleBot3 simulation in Gazebo **inside the container** or from another ROS 2 environment that shares the same network and `ROS_DOMAIN_ID`.
-
-Example (if TurtleBot3 is installed in the container):
+2. Open a new terminal and launch the TurtleBot3 simulation:
 ```bash
-export TURTLEBOT3_MODEL=waffle_pi
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
-```
-
-2. Launch Hydra-ROS:
-```bash
-cd /root/hydra_ws
+./run.sh
 source install/setup.bash
-
-ros2 launch hydra_ros hydra.launch.yaml
-dataset:=<dataset_name>
-labelspace:=<labelspace_name>
-start_visualizer:=true
-start_rviz:=true
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
+> Gazebo will start, showing the TurtleBot navigating inside the house, while the scene graph is generated in real time in the RViz2 window.
 
-Choose `dataset` and `labelspace` among:
-
-- `install/hydra/share/hydra/config/datasets/`
-- `install/hydra_ros/share/hydra_ros/config/datasets/`
-- `install/hydra/share/hydra/config/label_spaces/`
-
-3. Check the topics:
-```bash
-ros2 topic list
-```
-
-Configure the YAML files in `hydra_ros/config/datasets/` so that the topic names (depth, odom, TF, etc.) match those published by TurtleBot3/Gazebo.
+3. After the robot finishes navigating the environment, terminate the process and save the generated scene graph by pressing `Ctrl + C` in both terminals. All the components of the scene graph will be saved in `hydra_ws/house_scene_graph`.
 
 ## Project structure
 
-- `ros_ws/` – ROS 2 workspace  
-  - `src/hydra/` – Hydra core (scene graph engine)  
-  - `src/hydra_ros/` – ROS 2 interface and Docker launch files  
-  - other packages: Kimera, spark_dsg, etc.  
-- `ros_ws/src/hydra_ros/docker/` – Dockerfile, `docker-compose.yml`, Makefile (`build`, `run`, …)  
-- `MR_25_18/` – Project-specific configuration, scripts and documentation
+- `docker_ws/` – Docker files and scripts to build docker images for ROS workspace
+- `hydra_ws/` – Hydra workspace
+- `ros_ws/` – ROS 2 workspace
+- `chown_me.sh`: bash script to change the owner of files from root to user
+- `run.sh`: bash script to run ROS container
+- `exec.sh`: bash script to open a shell to an already running ROS container
+- `run_hydra.sh`: bash script to run ROS container
