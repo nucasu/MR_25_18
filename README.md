@@ -74,9 +74,9 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 
 ## Project structure
 
-- `docker_ws/` – Docker files and scripts to build docker images for ROS workspace
-- `hydra_ws/` – Hydra workspace
-- `ros_ws/` – ROS 2 workspace
+- `docker_ws/`: Docker files and scripts to build docker images for ROS workspace
+- `hydra_ws/`: Hydra workspace
+- `ros_ws/`: ROS 2 workspace
 - `chown_me.sh`: bash script to change the owner of files from root to user
 - `run.sh`: bash script to run ROS container
 - `exec.sh`: bash script to open a shell to an already running ROS container
