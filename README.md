@@ -24,7 +24,9 @@ chmod +x chown_me.sh exec.sh run.sh run_hydra.sh docker_ws/build_MR_25_18.sh
 
 3. Build the ROS workspace environment:
 ```bash
-./docker_ws/build_MR_25_18.sh
+cd docker_ws
+./build_MR_25_18.sh
+cd..
 ./run.sh
 colcon build --symlink-install
 ```
