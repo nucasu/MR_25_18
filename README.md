@@ -28,6 +28,8 @@ cd docker_ws
 ./build_MR_25_18.sh
 cd..
 ./run.sh
+```
+```bash
 colcon build --symlink-install
 ```
 
@@ -44,6 +46,8 @@ cd hydra_ws/src/hydra_ros/docker
 make build PROFILE=minimal
 make up PROFILE=minimal
 make shell PROFILE=minimal
+```
+```bash
 MAKEFLAGS="-j2" colcon build --parallel-workers 2
 ```
 
@@ -58,6 +62,8 @@ cd -
 1. Run Hydra:
 ```bash
 ./run_hydra.sh
+```
+```bash
 source install/setup.bash
 ros2 launch hydra_tb3 hydra_tb3.launch.yaml
 ```
@@ -66,6 +72,8 @@ ros2 launch hydra_tb3 hydra_tb3.launch.yaml
 2. Open a new terminal and launch the TurtleBot3 simulation:
 ```bash
 ./run.sh
+```
+```bash
 source install/setup.bash
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
