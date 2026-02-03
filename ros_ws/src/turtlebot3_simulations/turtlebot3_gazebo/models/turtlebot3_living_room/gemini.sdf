@@ -1,0 +1,118 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <gravity>0 0 -9.8</gravity>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <model name='ground_plane'>
+      <static>1</static>
+      <pose>0 0 0 0 -0 0</pose>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><plane><normal>0 0 1</normal><size>1 1</size></plane></geometry>
+          <material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Grey</name></script></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name='room_wall_2x5'><static>1</static><pose>-2.5 0 1 0 -0 0</pose>
+      <link name='link'><collision name='c'><geometry><box><size>0.1 5 2</size></box></geometry></collision>
+      <visual name='v'><geometry><box><size>0.1 5 2</size></box></geometry></visual></link></model>
+    
+    <model name='room_wall_2x5_0'><static>1</static><pose>2.5 0 1 0 -0 0</pose>
+      <link name='link'><collision name='c'><geometry><box><size>0.1 5 2</size></box></geometry></collision>
+      <visual name='v'><geometry><box><size>0.1 5 2</size></box></geometry></visual></link></model>
+
+    <model name='room_wall_2x5_1'><static>1</static><pose>0 -2.45 1 0 -0 1.5707</pose>
+      <link name='link'><collision name='c'><geometry><box><size>0.1 5 2</size></box></geometry></collision>
+      <visual name='v'><geometry><box><size>0.1 5 2</size></box></geometry></visual></link></model>
+
+    <model name='room_wall_2x5_2'><static>1</static><pose>0 2.45 1 0 -0 1.5707</pose>
+      <link name='link'><collision name='c'><geometry><box><size>0.1 5 2</size></box></geometry></collision>
+      <visual name='v'><geometry><box><size>0.1 5 2</size></box></geometry></visual></link></model>
+
+    <model name='Sofa'>
+      <static>1</static>
+      <pose>0.394007 -1.2 0.024684 -7e-06 0.056173 1.5707</pose>
+      <link name='link'>
+        <visual name='visual'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sofa/2/files/meshes/Sofa.obj</uri></mesh></geometry></visual>
+        <collision name='collision'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/sofa/2/files/meshes/Sofa.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name='CoffeeTable'>
+      <static>1</static>
+      <pose>0 0.1 -0.000129 2e-06 -2e-06 0</pose>
+      <link name='body'>
+        <visual name='visual'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/coffeetable/1/files/meshes/CoffeeTable.obj</uri><scale>0.00817 0.00817 0.00817</scale></mesh></geometry></visual>
+        <collision name='collision'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/coffeetable/1/files/meshes/CoffeeTable.obj</uri><scale>0.00817 0.00817 0.00817</scale></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name='MiniSofa'>
+      <static>1</static>
+      <pose>-1 0.1 -0.000897 -4e-06 -1.2e-05 -3.1415</pose>
+      <link name='body'>
+        <visual name='visual'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/minisofa/2/files/meshes/minisofa.obj</uri></mesh></geometry></visual>
+        <collision name='collision'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/minisofa/2/files/meshes/minisofa.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name='Chair'>
+      <static>1</static>
+      <pose>1 0.1 0 -4e-06 2e-06 3.1415</pose>
+      <link name='body'>
+        <visual name='visual'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/chair/2/files/meshes/Chair.obj</uri><scale>0.00817 0.00817 0.00817</scale></mesh></geometry></visual>
+        <collision name='collision'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/chair/2/files/meshes/Chair.obj</uri><scale>0.00817 0.00817 0.00817</scale></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name='Bookshelf'>
+      <static>1</static>
+      <pose>-2 2.4 0 0 -0 0</pose>
+      <link name='link'>
+        <collision name='back'><pose>0 0.005 0.6 0 -0 0</pose><geometry><box><size>0.9 0.01 1.2</size></box></geometry></collision>
+        <visual name='visual'><pose>0 0.005 0.6 0 -0 0</pose><geometry><box><size>0.9 0.01 1.2</size></box></geometry><material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Wood</name></script></material></visual>
+      </link>
+    </model>
+
+    <model name='TVStand'>
+      <static>1</static>
+      <pose>0 2.2 0 0 -0 0</pose>
+      <link name='body'>
+        <visual name='visual'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/tvstand/1/files/meshes/TVStand.obj</uri></mesh></geometry></visual>
+        <collision name='collision'><geometry><mesh><uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/tvstand/1/files/meshes/TVStand_Col.obj</uri></mesh></geometry></collision>
+      </link>
+    </model>
+
+    <model name='cabinet'>
+      <static>1</static>
+      <pose>2.21 2.17 0 0 -0 1.5707</pose>
+      <link name='link'>
+        <visual name='v'><geometry><box><size>0.45 0.45 1.02</size></box></geometry><material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/Wood</name></script></material></visual>
+        <collision name='c'><geometry><box><size>0.45 0.45 1.02</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <model name='living_room'>
+      <link name='link'></link>
+      <static>1</static>
+      <pose>-1.83596 1.40391 0 0 -0 0</pose>
+    </model>
+
+  </world>
+</sdf>
