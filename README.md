@@ -80,6 +80,8 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 > Gazebo will start, showing the TurtleBot navigating inside the house, while the scene graph is generated in real time in the RViz2 window.
 
+[SIMULATION VIDEO](https://www.youtube.com/watch?v=tuo_video)
+
 3. After the robot finishes navigating the environment, terminate the process and save the generated scene graph by pressing `Ctrl + C` in both terminals. All the components of the scene graph will be saved in `hydra_ws/house_scene_graph`.
 
 ## Project structure
